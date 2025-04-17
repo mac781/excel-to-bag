@@ -46,9 +46,9 @@ RUN apt-get update \
 
 USER $USERNAME
 
-RUN mkdir -p /home/user/Eurobot-excel/src
+RUN mkdir -p /home/user/excel-to-bag/src
 
-WORKDIR /home/$USERNAME/Eurobot-excel
+WORKDIR /home/$USERNAME/excel-to-bag
     
 RUN sudo apt-get update && \
     rosdep update && \
