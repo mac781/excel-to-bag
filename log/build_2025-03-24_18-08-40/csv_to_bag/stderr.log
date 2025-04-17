@@ -1,0 +1,67 @@
+[01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:[m[K In constructor ‘[01m[KCsvToBag::CsvToBag()[m[K’:
+[01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:14:57:[m[K [01;31m[Kerror: [m[Kno match for ‘[01m[Koperator=[m[K’ (operand types are ‘[01m[Kstd::unique_ptr<rosbag2_cpp::Writer>[m[K’ and ‘[01m[Kstd::shared_ptr<rosbag2_cpp::Writer>[m[K’)
+   14 |         writer_ = std::make_shared<rosbag2_cpp::Writer>([01;31m[K)[m[K;
+      |                                                         [01;31m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:386:9:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Up, class _Ep> typename std::enable_if<std::__and_<std::__and_<std::is_convertible<typename std::unique_ptr<_Up, _Ep>::pointer, typename std::__uniq_ptr_impl<_Tp, _Dp>::pointer>, std::__not_<std::is_array<_Up> > >, std::is_assignable<_T2&, _U2&&> >::value, std::unique_ptr<_Tp, _Dp>&>::type std::unique_ptr<_Tp, _Dp>::operator=(std::unique_ptr<_Up, _Ep>&&) [with _Up = _Up; _Ep = _Ep; _Tp = rosbag2_cpp::Writer; _Dp = std::default_delete<rosbag2_cpp::Writer>][m[K’
+  386 |         [01;36m[Koperator[m[K=(unique_ptr<_Up, _Ep>&& __u) noexcept
+      |         [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:386:9:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:14:57:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd::shared_ptr<rosbag2_cpp::Writer>[m[K’ is not derived from ‘[01m[Kstd::unique_ptr<_Tp, _Dp>[m[K’
+   14 |         writer_ = std::make_shared<rosbag2_cpp::Writer>([01;36m[K)[m[K;
+      |                                                         [01;36m[K^[m[K
+In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:153[m[K,
+                 from [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:1[m[K:
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:371:19:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::unique_ptr<_Tp, _Dp>& std::unique_ptr<_Tp, _Dp>::operator=(std::unique_ptr<_Tp, _Dp>&&) [with _Tp = rosbag2_cpp::Writer; _Dp = std::default_delete<rosbag2_cpp::Writer>][m[K’
+  371 |       unique_ptr& [01;36m[Koperator[m[K=(unique_ptr&&) = default;
+      |                   [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:371:29:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rosbag2_cpp::Writer>[m[K’ to ‘[01m[Kstd::unique_ptr<rosbag2_cpp::Writer>&&[m[K’
+  371 |       unique_ptr& operator=([01;36m[Kunique_ptr&&[m[K) = default;
+      |                             [01;36m[K^~~~~~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:395:7:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kstd::unique_ptr<_Tp, _Dp>& std::unique_ptr<_Tp, _Dp>::operator=(std::nullptr_t) [with _Tp = rosbag2_cpp::Writer; _Dp = std::default_delete<rosbag2_cpp::Writer>; std::nullptr_t = std::nullptr_t][m[K’
+  395 |       [01;36m[Koperator[m[K=(nullptr_t) noexcept
+      |       [01;36m[K^~~~~~~~[m[K
+[01m[K/usr/include/c++/11/bits/unique_ptr.h:395:17:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kstd::shared_ptr<rosbag2_cpp::Writer>[m[K’ to ‘[01m[Kstd::nullptr_t[m[K’
+  395 |       operator=([01;36m[Knullptr_t[m[K) noexcept
+      |                 [01;36m[K^~~~~~~~~[m[K
+[01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:[m[K In member function ‘[01m[Kvoid CsvToBag::read_and_publish()[m[K’:
+[01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:40:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krosbag2_cpp::Writer::write(nav_msgs::msg::Odometry&, const char [12], const char [22], rclcpp::Time&)[m[K’
+   40 |             [01;31m[Kwriter_->write(rival_msgs_, "/rival/pose", "nav_msgs/msg/Odometry", timestamp)[m[K;
+      |             [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:191:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT> void rosbag2_cpp::Writer::write(const MessageT&, const string&, const rclcpp::Time&)[m[K’
+  191 |   void [01;36m[Kwrite[m[K(
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:191:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:40:27:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 4 provided
+   40 |             [01;36m[Kwriter_->write(rival_msgs_, "/rival/pose", "nav_msgs/msg/Odometry", timestamp)[m[K;
+      |             [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:122:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rosbag2_cpp::Writer::write(std::shared_ptr<rosbag2_storage::SerializedBagMessage>)[m[K’
+  122 |   void [01;36m[Kwrite[m[K(std::shared_ptr<rosbag2_storage::SerializedBagMessage> message);
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:122:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 4 provided
+[01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:134:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rosbag2_cpp::Writer::write(std::shared_ptr<rosbag2_storage::SerializedBagMessage>, const string&, const string&, const string&)[m[K’
+  134 |   void [01;36m[Kwrite[m[K(
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:135:60:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::msg::Odometry[m[K’ {aka ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::shared_ptr<rosbag2_storage::SerializedBagMessage>[m[K’
+  135 |     [01;36m[Kstd::shared_ptr<rosbag2_storage::SerializedBagMessage> message[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:156:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rosbag2_cpp::Writer::write(const rclcpp::SerializedMessage&, const string&, const string&, const rclcpp::Time&)[m[K’
+  156 |   void [01;36m[Kwrite[m[K(
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:157:39:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::msg::Odometry[m[K’ {aka ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} to ‘[01m[Kconst rclcpp::SerializedMessage&[m[K’
+  157 |     [01;36m[Kconst rclcpp::SerializedMessage & message[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:174:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rosbag2_cpp::Writer::write(std::shared_ptr<rclcpp::SerializedMessage>, const string&, const string&, const rclcpp::Time&)[m[K’
+  174 |   void [01;36m[Kwrite[m[K(
+      |        [01;36m[K^~~~~[m[K
+[01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:175:48:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Knav_msgs::msg::Odometry[m[K’ {aka ‘[01m[Knav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} to ‘[01m[Kstd::shared_ptr<rclcpp::SerializedMessage>[m[K’
+  175 |     [01;36m[Kstd::shared_ptr<rclcpp::SerializedMessage> message[m[K,
+      |     [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/csv_to_bag.dir/build.make:76: CMakeFiles/csv_to_bag.dir/src/csv_to_bag.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/csv_to_bag.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,1 @@
+Invoking command in '/home/user/Eurobot-excel/build/csv': /usr/bin/cmake /home/user/Eurobot-excel/src/csv-parser -DCMAKE_INSTALL_PREFIX=/home/user/Eurobot-excel/install/csv

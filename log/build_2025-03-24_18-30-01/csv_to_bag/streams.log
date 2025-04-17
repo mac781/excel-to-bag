@@ -1,0 +1,66 @@
+[0.016s] Invoking command in '/home/user/Eurobot-excel/build/csv_to_bag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/Eurobot-excel/build/csv_to_bag -- -j8 -l8
+[0.057s] [35m[1mConsolidate compiler generated dependencies of target csv_to_bag[0m
+[0.081s] [ 50%] [32mBuilding CXX object CMakeFiles/csv_to_bag.dir/src/csv_to_bag.cpp.o[0m
+[2.404s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.404s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.404s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.404s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.404s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.404s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.405s]                  from [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:1[m[K:
+[2.405s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:[m[K In member function ‘[01m[Kvoid CsvToBag::read_and_publish()[m[K’:
+[2.405s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:33:26:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope; did you mean ‘[01m[KYAML::detail::node[m[K’?
+[2.405s]    33 |             RCLCPP_ERROR([01;31m[Knode[m[K->get_logger(), "Failed to open CSV file!");
+[2.405s]       |                          [01;31m[K^~~~[m[K
+[2.405s] In file included from [01m[K/usr/include/yaml-cpp/node/impl.h:12[m[K,
+[2.405s]                  from [01m[K/usr/include/yaml-cpp/yaml.h:17[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/yaml.hpp:27[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rosbag2_storage/rosbag2_storage/storage_options.hpp:22[m[K,
+[2.405s]                  from [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer_interfaces/base_writer_interface.hpp:25[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writers/sequential_writer.hpp:31[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:31[m[K,
+[2.406s]                  from [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:3[m[K:
+[2.406s] [01m[K/usr/include/yaml-cpp/node/detail/node.h:20:7:[m[K [01;36m[Knote: [m[K‘[01m[KYAML::detail::node[m[K’ declared here
+[2.406s]    20 | class [01;36m[Knode[m[K {
+[2.406s]       |       [01;36m[K^~~~[m[K
+[2.406s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[2.406s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[2.407s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[2.407s]                  from [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:1[m[K:
+[2.407s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:33:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.407s]    33 |             [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "Failed to open CSV file!");
+[2.407s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[2.407s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:33:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.407s]    33 |             [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "Failed to open CSV file!");
+[2.407s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[2.407s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:33:13:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[2.407s]    33 |             [01;31m[KRCLCPP_ERROR[m[K(node->get_logger(), "Failed to open CSV file!");
+[2.407s]       |             [01;31m[K^~~~~~~~~~~~[m[K
+[2.407s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:34:20:[m[K [01;31m[Kerror: [m[Kreturn-statement with a value, in function returning ‘[01m[Kvoid[m[K’ [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.407s]    34 |             return [01;31m[K-1[m[K;
+[2.407s]       |                    [01;31m[K^~[m[K
+[2.407s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:51:54:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Odometry = struct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct nav_msgs::msg::Odometry_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kget[m[K’
+[2.408s]    51 |             serializer.serialize_message(rival_msgs_.[01;31m[Kget[m[K(), &serialized_msg);
+[2.408s]       |                                                      [01;31m[K^~~[m[K
+[2.408s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:54:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rosbag2_cpp::Writer::write(const rclcpp::SerializedMessage&, const string&, const string&, const rclcpp::Time&)[m[K’ is deprecated: Use write(std::shared_ptr<rclcpp::SerializedMessage> message, const std::string & topic_name, const std::string & type_name, const rclcpp::Time & time) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[2.408s]    54 |             [01;35m[Kwriter_->write(serialized_msg, "/rival/pose", "nav_msgs/msg/Odometry", ros_time)[m[K;
+[2.408s]       |             [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.408s] In file included from [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:3[m[K:
+[2.408s] [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:156:8:[m[K [01;36m[Knote: [m[Kdeclared here
+[2.408s]   156 |   void [01;36m[Kwrite[m[K(
+[2.408s]       |        [01;36m[K^~~~~[m[K
+[3.594s] gmake[2]: *** [CMakeFiles/csv_to_bag.dir/build.make:76: CMakeFiles/csv_to_bag.dir/src/csv_to_bag.cpp.o] Error 1
+[3.594s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/csv_to_bag.dir/all] Error 2
+[3.594s] gmake: *** [Makefile:146: all] Error 2
+[3.596s] Invoked command in '/home/user/Eurobot-excel/build/csv_to_bag' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/Eurobot-excel/build/csv_to_bag -- -j8 -l8

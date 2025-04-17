@@ -1,0 +1,11 @@
+[  2%] Built target single_include_test
+[  9%] Built target csv
+[ 10%] Built target csv_info
+[ 11%] Built target csv_guess_bench
+[ 12%] Built target csv_bench
+[ 14%] Built target data_type_bench
+[ 18%] Built target csv_stats
+[ 18%] Built target csv_generator
+[ 89%] Built target Catch2
+[ 90%] Built target Catch2WithMain
+[100%] Built target csv_test

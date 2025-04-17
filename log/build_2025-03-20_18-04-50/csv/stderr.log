@@ -1,0 +1,52 @@
+[01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:[m[K In function ‘[01m[Kdouble Catch::Benchmark::Detail::{anonymous}::standard_deviation(const double*, const double*)[m[K’:
+[01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:181:32:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Klong int[m[K’ to ‘[01m[Kdouble[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+  181 |                         [01;35m[K( last - first )[m[K;
+      |                         [01;35m[K~~~~~~~^~~~~~~~~[m[K
+[01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:[m[K In function ‘[01m[Kdouble Catch::Benchmark::Detail::weighted_average_quantile(int, int, double*, double*)[m[K’:
+[01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:216:42:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Klong int[m[K’ to ‘[01m[Kdouble[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+  216 |                 double idx = [01;35m[K(count - 1) * k[m[K / static_cast<double>(q);
+      |                              [01;35m[K~~~~~~~~~~~~^~~[m[K
+[01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:[m[K In function ‘[01m[KCatch::Benchmark::Estimate<double> Catch::Benchmark::Detail::bootstrap(double, double*, double*, const sample&, double (*)(const double*, const double*))[m[K’:
+[01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:320:34:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Kstd::__iterator_traits<__gnu_cxx::__normal_iterator<const double*, std::vector<double> >, void>::difference_type[m[K’ {aka ‘[01m[Klong int[m[K’} to ‘[01m[Kdouble[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+  320 |                     [01;35m[Kstd::count_if( resample.begin(),[m[K
+      |                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+  321 | [01;35m[K                                   resample.end(),[m[K
+      |                                    [01;35m[K~~~~~~~~~~~~~~~[m[K
+  322 | [01;35m[K                                   [point]( double x ) { return x < point; } )[m[K /
+      |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/catch_timer.cpp:[m[K In member function ‘[01m[Kdouble Catch::Timer::getElapsedSeconds() const[m[K’:
+[01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/catch_timer.cpp:33:38:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kdouble[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+   33 |         return [01;35m[KgetElapsedMicroseconds()[m[K/1000000.0;
+      |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp:[m[K In member function ‘[01m[KCatch::SimplePcg32::result_type Catch::SimplePcg32::operator()()[m[K’:
+[01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp:55:62:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+   55 |         const auto output = rotate_right(xorshifted, [01;35m[Km_state >> 59u[m[K);
+      |                                                      [01;35m[K~~~~~~~~^~~~~~[m[K
+In file included from [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/generators/catch_generators_all.hpp:25[m[K,
+                 from [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_all.hpp:46[m[K,
+                 from [01m[K/home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv.cpp:7[m[K:
+[01m[K/home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv.cpp:[m[K In lambda function:
+[01m[K/home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv.cpp:189:13:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  189 |             [01;35m[K"A,B,C\r\n" // Header row[m[K
+      |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+  190 | [01;35m[K            "123,234,345\r\n"[m[K
+      |             [01;35m[K~~~~~~~~~~~~~~~~~[m[K
+  191 | [01;35m[K            "1,2,3\r\n"[m[K
+      |             [01;35m[K~~~~~~~~~~~[m[K
+  192 | [01;35m[K            "4,5,6"[m[K,
+      |             [01;35m[K~~~~~~~[m[K
+[01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/generators/catch_generators.hpp:234:97:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGENERATE[m[K’
+  234 |                                  [ ]{ using namespace Catch::Generators; return makeGenerators( [01;36m[K__VA_ARGS__[m[K ); } ) //NOLINT(google-build-using-namespace)
+      |                                                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv.cpp:204:13:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  204 |             [01;35m[K"4,5,6"[m[K,
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/generators/catch_generators.hpp:234:97:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGENERATE[m[K’
+  234 |                                  [ ]{ using namespace Catch::Generators; return makeGenerators( [01;36m[K__VA_ARGS__[m[K ); } ) //NOLINT(google-build-using-namespace)
+      |                                                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv.cpp:210:13:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+  210 |             [01;35m[K"4,5,6"[m[K
+      |             [01;35m[K^~~~~~~[m[K
+[01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/generators/catch_generators.hpp:234:97:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGENERATE[m[K’
+  234 |                                  [ ]{ using namespace Catch::Generators; return makeGenerators( [01;36m[K__VA_ARGS__[m[K ); } ) //NOLINT(google-build-using-namespace)
+      |                                                                                                 [01;36m[K^~~~~~~~~~~[m[K

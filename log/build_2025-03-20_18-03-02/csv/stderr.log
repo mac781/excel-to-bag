@@ -1,0 +1,5 @@
+[0mBuilding CSV library using C++17[0m
+[33mCMake Warning at CMakeLists.txt:104 (message):
+  Doxygen not found, skipping target 'doxygen'.
+
+[0m

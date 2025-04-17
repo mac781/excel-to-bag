@@ -1,0 +1,13 @@
+[0.011s] Invoking command in '/home/user/Eurobot-excel/build/csv': /usr/bin/cmake --build /home/user/Eurobot-excel/build/csv -- -j8 -l8
+[0.060s] [  2%] Built target single_include_test
+[0.066s] [  9%] Built target csv
+[0.095s] [ 39%] Built target csv_bench
+[0.095s] [ 40%] Built target csv_info
+[0.096s] [ 42%] Built target csv_generator
+[0.096s] [ 44%] Built target csv_guess_bench
+[0.096s] [ 85%] Built target Catch2
+[0.097s] [ 88%] Built target data_type_bench
+[0.097s] [ 89%] Built target csv_stats
+[0.121s] [ 90%] Built target Catch2WithMain
+[0.151s] [100%] Built target csv_test
+[0.163s] Invoked command in '/home/user/Eurobot-excel/build/csv' returned '0': /usr/bin/cmake --build /home/user/Eurobot-excel/build/csv -- -j8 -l8

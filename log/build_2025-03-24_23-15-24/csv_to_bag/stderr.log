@@ -1,0 +1,74 @@
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:1[m[K:
+[01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:[m[K In member function ‘[01m[Kvoid CsvToBag::read_and_publish()[m[K’:
+[01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:45:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 6 has type ‘[01m[Kdouble*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   45 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"raw:(%d, %.2f, %.2f, %.2f)"[m[K,rival_msgs_.header.stamp.sec, [32m[Kx[m[K, y, z);
+      |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                               [32m[K~[m[K
+      |                                                                                                       [32m[K|[m[K
+      |                                                                                                       [32m[Kdouble*[m[K
+[01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:45:57:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   45 |             RCLCPP_INFO(this->get_logger(),"raw:(%d, [01;36m[K%.2f[m[K, %.2f, %.2f)",rival_msgs_.header.stamp.sec, x, y, z);
+      |                                                      [01;36m[K~~~^[m[K
+      |                                                         [01;36m[K|[m[K
+      |                                                         [01;36m[Kdouble[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:1[m[K:
+[01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:45:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 7 has type ‘[01m[Kdouble*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   45 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"raw:(%d, %.2f, %.2f, %.2f)"[m[K,rival_msgs_.header.stamp.sec, x, [32m[Ky[m[K, z);
+      |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                  [32m[K~[m[K
+      |                                                                                                          [32m[K|[m[K
+      |                                                                                                          [32m[Kdouble*[m[K
+[01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:45:63:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   45 |             RCLCPP_INFO(this->get_logger(),"raw:(%d, %.2f, [01;36m[K%.2f[m[K, %.2f)",rival_msgs_.header.stamp.sec, x, y, z);
+      |                                                            [01;36m[K~~~^[m[K
+      |                                                               [01;36m[K|[m[K
+      |                                                               [01;36m[Kdouble[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:1[m[K:
+[01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:45:44:[m[K [01;35m[Kwarning: [m[Kformat ‘[01m[K%f[m[K’ expects argument of type ‘[01m[Kdouble[m[K’, but argument 8 has type ‘[01m[Kdouble*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=-Wformat=]8;;[m[K]
+   45 |             RCLCPP_INFO(this->get_logger(),[01;35m[K"raw:(%d, %.2f, %.2f, %.2f)"[m[K,rival_msgs_.header.stamp.sec, x, y, [32m[Kz[m[K);
+      |                                            [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                     [32m[K~[m[K
+      |                                                                                                             [32m[K|[m[K
+      |                                                                                                             [32m[Kdouble*[m[K
+[01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:45:69:[m[K [01;36m[Knote: [m[Kformat string is defined here
+   45 |             RCLCPP_INFO(this->get_logger(),"raw:(%d, %.2f, %.2f, [01;36m[K%.2f[m[K)",rival_msgs_.header.stamp.sec, x, y, z);
+      |                                                                  [01;36m[K~~~^[m[K
+      |                                                                     [01;36m[K|[m[K
+      |                                                                     [01;36m[Kdouble[m[K
+[01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:92:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rosbag2_cpp::Writer::write(const rclcpp::SerializedMessage&, const string&, const string&, const rclcpp::Time&)[m[K’ is deprecated: Use write(std::shared_ptr<rclcpp::SerializedMessage> message, const std::string & topic_name, const std::string & type_name, const rclcpp::Time & time) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+   92 |             [01;35m[Kwriter_->write(serialized_msg, "/rival/pose", "nav_msgs/msg/Odometry", ros_time)[m[K;
+      |             [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:3[m[K:
+[01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:156:8:[m[K [01;36m[Knote: [m[Kdeclared here
+  156 |   void [01;36m[Kwrite[m[K(
+      |        [01;36m[K^~~~~[m[K

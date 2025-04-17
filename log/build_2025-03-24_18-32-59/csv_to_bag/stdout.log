@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target csv_to_bag[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/csv_to_bag.dir/src/csv_to_bag.cpp.o[0m
+[100%] [32m[1mLinking CXX executable csv_to_bag[0m
+[100%] Built target csv_to_bag
+-- Install configuration: ""
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/lib/csv_to_bag/csv_to_bag
+-- Set runtime path of "/home/user/Eurobot-excel/install/csv_to_bag/lib/csv_to_bag/csv_to_bag" to ""
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/ament_index/resource_index/package_run_dependencies/csv_to_bag
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/ament_index/resource_index/parent_prefix_path/csv_to_bag
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/environment/ament_prefix_path.sh
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/environment/ament_prefix_path.dsv
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/environment/path.sh
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/environment/path.dsv
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/local_setup.bash
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/local_setup.sh
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/local_setup.zsh
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/local_setup.dsv
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/package.dsv
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/ament_index/resource_index/packages/csv_to_bag
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/cmake/csv_to_bagConfig.cmake
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/cmake/csv_to_bagConfig-version.cmake
+-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/package.xml

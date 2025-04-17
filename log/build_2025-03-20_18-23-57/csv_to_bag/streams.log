@@ -1,0 +1,74 @@
+[0.013s] Invoking command in '/home/user/Eurobot-excel/build/csv_to_bag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/Eurobot-excel/build/csv_to_bag -- -j8 -l8
+[0.037s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.161s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.188s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.191s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.195s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.205s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.216s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.242s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.242s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.338s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.374s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.384s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.395s] -- Found rosbag2_cpp: 0.15.13 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[0.418s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.474s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.474s] -- Configured cppcheck include dirs: 
+[0.474s] -- Configured cppcheck exclude dirs and/or files: 
+[0.474s] -- Added test 'lint_cmake' to check CMake code style
+[0.476s] -- Added test 'uncrustify' to check C / C++ code style
+[0.476s] -- Configured uncrustify additional arguments: 
+[0.476s] -- Added test 'xmllint' to check XML markup files
+[0.477s] -- Configuring done
+[0.492s] -- Generating done
+[0.495s] -- Build files have been written to: /home/user/Eurobot-excel/build/csv_to_bag
+[0.520s] [35m[1mConsolidate compiler generated dependencies of target csv_to_bag[0m
+[0.539s] [ 50%] [32mBuilding CXX object CMakeFiles/csv_to_bag.dir/src/csv_to_bag.cpp.o[0m
+[2.847s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:[m[K In member function ‘[01m[Kvoid CsvToBag::read_and_publish()[m[K’:
+[2.847s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:19:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kio[m[K’ has not been declared
+[2.847s]    19 |         [01;31m[Kio[m[K::CSVReader<4> csv_reader("~/Eurobot-excel/src/csv_to_bag/data/test.csv");
+[2.847s]       |         [01;31m[K^~[m[K
+[2.853s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:19:26:[m[K [01;31m[Kerror: [m[K‘[01m[Kcsv_reader[m[K’ was not declared in this scope
+[2.853s]    19 |         io::CSVReader<4> [01;31m[Kcsv_reader[m[K("~/Eurobot-excel/src/csv_to_bag/data/test.csv");
+[2.853s]       |                          [01;31m[K^~~~~~~~~~[m[K
+[2.853s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:20:32:[m[K [01;31m[Kerror: [m[K‘[01m[Kio[m[K’ has not been declared
+[2.853s]    20 |         csv_reader.read_header([01;31m[Kio[m[K::ignore_extra_column, "timestamp", "x", "y", "z");
+[2.853s]       |                                [01;31m[K^~[m[K
+[2.853s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:24:52:[m[K [01;31m[Kerror: [m[Kcannot convert ‘[01m[Krclcpp::Time[m[K’ to ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >::_sec_type[m[K’ {aka ‘[01m[Kint[m[K’} in assignment
+[2.853s]    24 |             rival_msgs_.header.stamp.sec = rclcpp::[01;31m[KTime(static_cast<int64_t>(timestamp * 1e9))[m[K;
+[2.853s]       |                                                    [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.853s]       |                                                    [01;31m[K|[m[K
+[2.853s]       |                                                    [01;31m[Krclcpp::Time[m[K
+[2.853s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:31:27:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krosbag2_cpp::Writer::write(nav_msgs::msg::Odometry&, const char [12])[m[K’
+[2.853s]    31 |             [01;31m[Kwriter_->write(rival_msgs_, "/rival/pose")[m[K;
+[2.854s]       |             [01;31m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.854s] In file included from [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:3[m[K:
+[2.854s] [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:191:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT> void rosbag2_cpp::Writer::write(const MessageT&, const string&, const rclcpp::Time&)[m[K’
+[2.854s]   191 |   void [01;36m[Kwrite[m[K(
+[2.854s]       |        [01;36m[K^~~~~[m[K
+[2.854s] [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:191:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[2.854s] [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:31:27:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 2 provided
+[2.854s]    31 |             [01;36m[Kwriter_->write(rival_msgs_, "/rival/pose")[m[K;
+[2.854s]       |             [01;36m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.854s] In file included from [01m[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:3[m[K:
+[2.854s] [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:122:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rosbag2_cpp::Writer::write(std::shared_ptr<rosbag2_storage::SerializedBagMessage>)[m[K’
+[2.854s]   122 |   void [01;36m[Kwrite[m[K(std::shared_ptr<rosbag2_storage::SerializedBagMessage> message);
+[2.854s]       |        [01;36m[K^~~~~[m[K
+[2.854s] [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:122:8:[m[K [01;36m[Knote: [m[K  candidate expects 1 argument, 2 provided
+[2.854s] [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:134:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rosbag2_cpp::Writer::write(std::shared_ptr<rosbag2_storage::SerializedBagMessage>, const string&, const string&, const string&)[m[K’
+[2.854s]   134 |   void [01;36m[Kwrite[m[K(
+[2.854s]       |        [01;36m[K^~~~~[m[K
+[2.854s] [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:134:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+[2.854s] [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:156:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rosbag2_cpp::Writer::write(const rclcpp::SerializedMessage&, const string&, const string&, const rclcpp::Time&)[m[K’
+[2.854s]   156 |   void [01;36m[Kwrite[m[K(
+[2.854s]       |        [01;36m[K^~~~~[m[K
+[2.854s] [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:156:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+[2.854s] [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:174:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kvoid rosbag2_cpp::Writer::write(std::shared_ptr<rclcpp::SerializedMessage>, const string&, const string&, const rclcpp::Time&)[m[K’
+[2.854s]   174 |   void [01;36m[Kwrite[m[K(
+[2.855s]       |        [01;36m[K^~~~~[m[K
+[2.855s] [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:174:8:[m[K [01;36m[Knote: [m[K  candidate expects 4 arguments, 2 provided
+[3.650s] gmake[2]: *** [CMakeFiles/csv_to_bag.dir/build.make:76: CMakeFiles/csv_to_bag.dir/src/csv_to_bag.cpp.o] Error 1
+[3.650s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/csv_to_bag.dir/all] Error 2
+[3.650s] gmake: *** [Makefile:146: all] Error 2
+[3.652s] Invoked command in '/home/user/Eurobot-excel/build/csv_to_bag' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/Eurobot-excel/build/csv_to_bag -- -j8 -l8

@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000325] (csv) JobQueued: {'identifier': 'csv', 'dependencies': OrderedDict()}
+[0.000453] (csv_to_bag) JobQueued: {'identifier': 'csv_to_bag', 'dependencies': OrderedDict()}
+[0.000514] (csv) JobStarted: {'identifier': 'csv'}
+[0.005504] (csv_to_bag) JobStarted: {'identifier': 'csv_to_bag'}
+[0.009393] (csv) JobProgress: {'identifier': 'csv', 'progress': 'cmake'}
+[0.009967] (csv) JobProgress: {'identifier': 'csv', 'progress': 'build'}
+[0.010546] (csv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/Eurobot-excel/build/csv', '--', '-j8', '-l8'], 'cwd': '/home/user/Eurobot-excel/build/csv', 'env': OrderedDict([('HOSTNAME', 'mac-VivoBook-ASUSLaptop-X515EA-X515EA'), ('GIT_ASKPASS', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/user'), ('OLDPWD', '/home/user'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-cecec64c-88ae-49fd-8c40-bab42cc89bfb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/user/Eurobot-excel/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9da70b61-146d-4a96-b1a4-2a0118b7cb89.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9da70b61-146d-4a96-b1a4-2a0118b7cb89.sock","/home/user/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-880c1cdbeb.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9da70b61-146d-4a96-b1a4-2a0118b7cb89.sock'), ('AMENT_PREFIX_PATH', '/home/user/Eurobot-excel/install/csv_to_bag:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_WS', '/home/user/Eurobot-excel'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/Eurobot-excel/build/csv'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/Eurobot-excel/install/csv_to_bag')]), 'shell': False}
+[0.014011] (csv_to_bag) JobProgress: {'identifier': 'csv_to_bag', 'progress': 'cmake'}
+[0.014535] (csv_to_bag) JobProgress: {'identifier': 'csv_to_bag', 'progress': 'build'}
+[0.014726] (csv_to_bag) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/Eurobot-excel/build/csv_to_bag', '--', '-j8', '-l8'], 'cwd': '/home/user/Eurobot-excel/build/csv_to_bag', 'env': OrderedDict([('HOSTNAME', 'mac-VivoBook-ASUSLaptop-X515EA-X515EA'), ('GIT_ASKPASS', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/user'), ('OLDPWD', '/home/user'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-cecec64c-88ae-49fd-8c40-bab42cc89bfb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/user/Eurobot-excel/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9da70b61-146d-4a96-b1a4-2a0118b7cb89.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9da70b61-146d-4a96-b1a4-2a0118b7cb89.sock","/home/user/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-880c1cdbeb.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9da70b61-146d-4a96-b1a4-2a0118b7cb89.sock'), ('AMENT_PREFIX_PATH', '/home/user/Eurobot-excel/install/csv_to_bag:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_WS', '/home/user/Eurobot-excel'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/Eurobot-excel/build/csv_to_bag'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/Eurobot-excel/install/csv_to_bag:/opt/ros/humble')]), 'shell': False}
+[0.050071] (csv_to_bag) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target csv_to_bag\x1b[0m\n'}
+[0.057546] (csv) StdoutLine: {'line': b'[  2%] Built target single_include_test\n'}
+[0.059904] (csv) StdoutLine: {'line': b'[  9%] Built target csv\n'}
+[0.072487] (csv_to_bag) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/csv_to_bag.dir/src/csv_to_bag.cpp.o\x1b[0m\n'}
+[0.084998] (csv) StdoutLine: {'line': b'[ 12%] Built target csv_bench\n'}
+[0.085258] (csv) StdoutLine: {'line': b'[ 12%] Built target csv_stats\n'}
+[0.085339] (csv) StdoutLine: {'line': b'[ 13%] Built target csv_guess_bench\n'}
+[0.085408] (csv) StdoutLine: {'line': b'[ 15%] Built target csv_generator\n'}
+[0.085477] (csv) StdoutLine: {'line': b'[ 16%] Built target csv_info\n'}
+[0.088396] (csv) StdoutLine: {'line': b'[ 18%] Built target data_type_bench\n'}
+[0.090940] (csv) StdoutLine: {'line': b'[ 89%] Built target Catch2\n'}
+[0.099809] (-) TimerEvent: {}
+[0.111961] (csv) StdoutLine: {'line': b'[ 90%] Built target Catch2WithMain\n'}
+[0.148855] (csv) StdoutLine: {'line': b'[100%] Built target csv_test\n'}
+[0.158117] (csv) CommandEnded: {'returncode': 0}
+[0.166721] (csv) JobEnded: {'identifier': 'csv', 'rc': 0}
+[0.200320] (-) TimerEvent: {}
+[0.301022] (-) TimerEvent: {}
+[0.401393] (-) TimerEvent: {}
+[0.501724] (-) TimerEvent: {}
+[0.602043] (-) TimerEvent: {}
+[0.702444] (-) TimerEvent: {}
+[0.802838] (-) TimerEvent: {}
+[0.903232] (-) TimerEvent: {}
+[1.003571] (-) TimerEvent: {}
+[1.104015] (-) TimerEvent: {}
+[1.204381] (-) TimerEvent: {}
+[1.304741] (-) TimerEvent: {}
+[1.405221] (-) TimerEvent: {}
+[1.505651] (-) TimerEvent: {}
+[1.606106] (-) TimerEvent: {}
+[1.706474] (-) TimerEvent: {}
+[1.806987] (-) TimerEvent: {}
+[1.907448] (-) TimerEvent: {}
+[2.007823] (-) TimerEvent: {}
+[2.108189] (-) TimerEvent: {}
+[2.208522] (-) TimerEvent: {}
+[2.308897] (-) TimerEvent: {}
+[2.409322] (-) TimerEvent: {}
+[2.463329] (csv_to_bag) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.463549] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.463630] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.463702] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.463770] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.463838] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.463922] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.463990] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.464057] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.464125] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.464197] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.464264] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:1\x1b[m\x1b[K:\n'}
+[2.464332] (csv_to_bag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CsvToBag::read_and_publish()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.464400] (csv_to_bag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:45:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 5 has type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.464473] (csv_to_bag) StderrLine: {'line': b'   45 |             RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K"Writing:(%d, %d, %d, %d)"\x1b[m\x1b[K, \x1b[32m\x1b[Krival_msgs_.pose.pose.position.x\x1b[m\x1b[K, rival_msgs_.pose.pose.position.y, rival_msgs_.pose.pose.position.z, rival_msgs_.header.stamp.sec);\n'}
+[2.464542] (csv_to_bag) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K  \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.464615] (csv_to_bag) StderrLine: {'line': b'      |                                                                                                       \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.464684] (csv_to_bag) StderrLine: {'line': b'      |                                                                                                       \x1b[32m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_x_type {aka double}\x1b[m\x1b[K\n'}
+[2.468288] (csv_to_bag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:45:55:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.468614] (csv_to_bag) StderrLine: {'line': b'   45 |             RCLCPP_INFO(this->get_logger(),"Writing:(\x1b[01;36m\x1b[K%d\x1b[m\x1b[K, %d, %d, %d)", rival_msgs_.pose.pose.position.x, rival_msgs_.pose.pose.position.y, rival_msgs_.pose.pose.position.z, rival_msgs_.header.stamp.sec);\n'}
+[2.468687] (csv_to_bag) StderrLine: {'line': b'      |                                                      \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.468734] (csv_to_bag) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.468775] (csv_to_bag) StderrLine: {'line': b'      |                                                       \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.468814] (csv_to_bag) StderrLine: {'line': b'      |                                                      \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[2.468862] (csv_to_bag) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.468904] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.468942] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.468981] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.469026] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.469068] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.469105] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.469144] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.469183] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.469226] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.469269] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.469307] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:1\x1b[m\x1b[K:\n'}
+[2.469346] (csv_to_bag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:45:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 6 has type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_y_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.469389] (csv_to_bag) StderrLine: {'line': b'   45 |             RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K"Writing:(%d, %d, %d, %d)"\x1b[m\x1b[K, rival_msgs_.pose.pose.position.x, \x1b[32m\x1b[Krival_msgs_.pose.pose.position.y\x1b[m\x1b[K, rival_msgs_.pose.pose.position.z, rival_msgs_.header.stamp.sec);\n'}
+[2.469428] (csv_to_bag) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                    \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.469467] (csv_to_bag) StderrLine: {'line': b'      |                                                                                                                                         \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.469505] (csv_to_bag) StderrLine: {'line': b'      |                                                                                                                                         \x1b[32m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_y_type {aka double}\x1b[m\x1b[K\n'}
+[2.469544] (csv_to_bag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:45:59:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.469583] (csv_to_bag) StderrLine: {'line': b'   45 |             RCLCPP_INFO(this->get_logger(),"Writing:(%d, \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, %d, %d)", rival_msgs_.pose.pose.position.x, rival_msgs_.pose.pose.position.y, rival_msgs_.pose.pose.position.z, rival_msgs_.header.stamp.sec);\n'}
+[2.469624] (csv_to_bag) StderrLine: {'line': b'      |                                                          \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.469663] (csv_to_bag) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.469701] (csv_to_bag) StderrLine: {'line': b'      |                                                           \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.469739] (csv_to_bag) StderrLine: {'line': b'      |                                                          \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[2.469779] (csv_to_bag) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[2.469819] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[2.469869] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[2.469911] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[2.469952] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[2.469991] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[2.470030] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[2.470069] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[2.470107] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[2.470145] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[2.470183] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[2.470223] (csv_to_bag) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:1\x1b[m\x1b[K:\n'}
+[2.470263] (csv_to_bag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:45:44:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kformat \xe2\x80\x98\x1b[01m\x1b[K%d\x1b[m\x1b[K\xe2\x80\x99 expects argument of type \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99, but argument 7 has type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_z_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99} [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wformat=\x07-Wformat=\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.470305] (csv_to_bag) StderrLine: {'line': b'   45 |             RCLCPP_INFO(this->get_logger(),\x1b[01;35m\x1b[K"Writing:(%d, %d, %d, %d)"\x1b[m\x1b[K, rival_msgs_.pose.pose.position.x, rival_msgs_.pose.pose.position.y, \x1b[32m\x1b[Krival_msgs_.pose.pose.position.z\x1b[m\x1b[K, rival_msgs_.header.stamp.sec);\n'}
+[2.470348] (csv_to_bag) StderrLine: {'line': b'      |                                            \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K                                                                      \x1b[32m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.470391] (csv_to_bag) StderrLine: {'line': b'      |                                                                                                                                                                           \x1b[32m\x1b[K|\x1b[m\x1b[K\n'}
+[2.470431] (csv_to_bag) StderrLine: {'line': b'      |                                                                                                                                                                           \x1b[32m\x1b[Kgeometry_msgs::msg::Point_<std::allocator<void> >::_z_type {aka double}\x1b[m\x1b[K\n'}
+[2.470474] (csv_to_bag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:45:63:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kformat string is defined here\n'}
+[2.470518] (csv_to_bag) StderrLine: {'line': b'   45 |             RCLCPP_INFO(this->get_logger(),"Writing:(%d, %d, \x1b[01;36m\x1b[K%d\x1b[m\x1b[K, %d)", rival_msgs_.pose.pose.position.x, rival_msgs_.pose.pose.position.y, rival_msgs_.pose.pose.position.z, rival_msgs_.header.stamp.sec);\n'}
+[2.470685] (csv_to_bag) StderrLine: {'line': b'      |                                                              \x1b[01;36m\x1b[K~^\x1b[m\x1b[K\n'}
+[2.470735] (csv_to_bag) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[K|\x1b[m\x1b[K\n'}
+[2.470776] (csv_to_bag) StderrLine: {'line': b'      |                                                               \x1b[01;36m\x1b[Kint\x1b[m\x1b[K\n'}
+[2.470815] (csv_to_bag) StderrLine: {'line': b'      |                                                              \x1b[32m\x1b[K%f\x1b[m\x1b[K\n'}
+[2.470867] (csv_to_bag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:48:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid rosbag2_cpp::Writer::write(const rclcpp::SerializedMessage&, const string&, const string&, const rclcpp::Time&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use write(std::shared_ptr<rclcpp::SerializedMessage> message, const std::string & topic_name, const std::string & type_name, const rclcpp::Time & time) instead. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.470913] (csv_to_bag) StderrLine: {'line': b'   48 |             \x1b[01;35m\x1b[Kwriter_->write(serialized_msg, "/rival/pose", "nav_msgs/msg/Odometry", ros_time)\x1b[m\x1b[K;\n'}
+[2.470952] (csv_to_bag) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[2.470991] (csv_to_bag) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user/Eurobot-excel/src/csv_to_bag/src/csv_to_bag.cpp:3\x1b[m\x1b[K:\n'}
+[2.471030] (csv_to_bag) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:156:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[2.471071] (csv_to_bag) StderrLine: {'line': b'  156 |   void \x1b[01;36m\x1b[Kwrite\x1b[m\x1b[K(\n'}
+[2.471109] (csv_to_bag) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[2.509447] (-) TimerEvent: {}
+[2.609826] (-) TimerEvent: {}
+[2.710233] (-) TimerEvent: {}
+[2.810619] (-) TimerEvent: {}
+[2.911033] (-) TimerEvent: {}
+[3.011432] (-) TimerEvent: {}
+[3.111894] (-) TimerEvent: {}
+[3.212174] (-) TimerEvent: {}
+[3.312587] (-) TimerEvent: {}
+[3.413005] (-) TimerEvent: {}
+[3.513419] (-) TimerEvent: {}
+[3.613828] (-) TimerEvent: {}
+[3.714166] (-) TimerEvent: {}
+[3.814486] (-) TimerEvent: {}
+[3.914770] (-) TimerEvent: {}
+[4.015087] (-) TimerEvent: {}
+[4.115469] (-) TimerEvent: {}
+[4.215774] (-) TimerEvent: {}
+[4.316060] (-) TimerEvent: {}
+[4.416377] (-) TimerEvent: {}
+[4.463351] (csv_to_bag) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable csv_to_bag\x1b[0m\n'}
+[4.516503] (-) TimerEvent: {}
+[4.614128] (csv_to_bag) StdoutLine: {'line': b'[100%] Built target csv_to_bag\n'}
+[4.616594] (-) TimerEvent: {}
+[4.621990] (csv_to_bag) CommandEnded: {'returncode': 0}
+[4.622572] (csv_to_bag) JobProgress: {'identifier': 'csv_to_bag', 'progress': 'install'}
+[4.633783] (csv_to_bag) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/Eurobot-excel/build/csv_to_bag'], 'cwd': '/home/user/Eurobot-excel/build/csv_to_bag', 'env': OrderedDict([('HOSTNAME', 'mac-VivoBook-ASUSLaptop-X515EA-X515EA'), ('GIT_ASKPASS', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/user'), ('OLDPWD', '/home/user'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-cecec64c-88ae-49fd-8c40-bab42cc89bfb.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/user/Eurobot-excel/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-9da70b61-146d-4a96-b1a4-2a0118b7cb89.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-9da70b61-146d-4a96-b1a4-2a0118b7cb89.sock","/home/user/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-880c1cdbeb.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-9da70b61-146d-4a96-b1a4-2a0118b7cb89.sock'), ('AMENT_PREFIX_PATH', '/home/user/Eurobot-excel/install/csv_to_bag:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('ROS_WS', '/home/user/Eurobot-excel'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/Eurobot-excel/build/csv_to_bag'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/Eurobot-excel/install/csv_to_bag:/opt/ros/humble')]), 'shell': False}
+[4.644156] (csv_to_bag) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.644521] (csv_to_bag) StdoutLine: {'line': b'-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/lib/csv_to_bag/csv_to_bag\n'}
+[4.645111] (csv_to_bag) StdoutLine: {'line': b'-- Set runtime path of "/home/user/Eurobot-excel/install/csv_to_bag/lib/csv_to_bag/csv_to_bag" to ""\n'}
+[4.645325] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/Eurobot-excel/install/csv_to_bag/share/ament_index/resource_index/package_run_dependencies/csv_to_bag\n'}
+[4.645411] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/Eurobot-excel/install/csv_to_bag/share/ament_index/resource_index/parent_prefix_path/csv_to_bag\n'}
+[4.645481] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/environment/ament_prefix_path.sh\n'}
+[4.645553] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/environment/ament_prefix_path.dsv\n'}
+[4.645621] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/environment/path.sh\n'}
+[4.645689] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/environment/path.dsv\n'}
+[4.646014] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/local_setup.bash\n'}
+[4.646137] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/local_setup.sh\n'}
+[4.646205] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/local_setup.zsh\n'}
+[4.646269] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/local_setup.dsv\n'}
+[4.646333] (csv_to_bag) StdoutLine: {'line': b'-- Installing: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/package.dsv\n'}
+[4.646399] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/Eurobot-excel/install/csv_to_bag/share/ament_index/resource_index/packages/csv_to_bag\n'}
+[4.646464] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/cmake/csv_to_bagConfig.cmake\n'}
+[4.646542] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/cmake/csv_to_bagConfig-version.cmake\n'}
+[4.646609] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/Eurobot-excel/install/csv_to_bag/share/csv_to_bag/package.xml\n'}
+[4.647784] (csv_to_bag) CommandEnded: {'returncode': 0}
+[4.660597] (csv_to_bag) JobEnded: {'identifier': 'csv_to_bag', 'rc': 0}
+[4.661376] (-) EventReactorShutdown: {}

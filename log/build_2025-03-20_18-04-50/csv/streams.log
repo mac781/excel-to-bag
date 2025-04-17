@@ -1,0 +1,214 @@
+[0.010s] Invoking command in '/home/user/Eurobot-excel/build/csv': /usr/bin/cmake --build /home/user/Eurobot-excel/build/csv -- -j8 -l8
+[0.064s] [  1%] [32mBuilding CXX object single_include_test/CMakeFiles/single_include_test.dir/file2.cpp.o[0m
+[0.064s] [  2%] [32mBuilding CXX object include/internal/CMakeFiles/csv.dir/basic_csv_parser.cpp.o[0m
+[0.065s] [  2%] [32mBuilding CXX object include/internal/CMakeFiles/csv.dir/csv_format.cpp.o[0m
+[0.065s] [  3%] [32mBuilding CXX object include/internal/CMakeFiles/csv.dir/col_names.cpp.o[0m
+[0.070s] [  4%] [32mBuilding CXX object include/internal/CMakeFiles/csv.dir/csv_reader_iterator.cpp.o[0m
+[0.072s] [  4%] [32mBuilding CXX object single_include_test/CMakeFiles/single_include_test.dir/file1.cpp.o[0m
+[0.074s] [  5%] [32mBuilding CXX object include/internal/CMakeFiles/csv.dir/csv_reader.cpp.o[0m
+[0.083s] [  5%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/catch_chronometer.cpp.o[0m
+[0.210s] [  6%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_analyse.cpp.o[0m
+[1.078s] [  7%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.o[0m
+[1.102s] [  7%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.o[0m
+[1.207s] [  7%] [32mBuilding CXX object include/internal/CMakeFiles/csv.dir/csv_row.cpp.o[0m
+[1.629s] [  8%] [32mBuilding CXX object include/internal/CMakeFiles/csv.dir/csv_row_json.cpp.o[0m
+[1.674s] [  9%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.o[0m
+[1.743s] [ 10%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.o[0m
+[1.814s] [ 11%] [32mBuilding CXX object include/internal/CMakeFiles/csv.dir/csv_stat.cpp.o[0m
+[2.307s] [ 11%] [32mBuilding CXX object include/internal/CMakeFiles/csv.dir/csv_utility.cpp.o[0m
+[2.415s] [ 11%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.o[0m
+[2.742s] [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:[m[K In function ‘[01m[Kdouble Catch::Benchmark::Detail::{anonymous}::standard_deviation(const double*, const double*)[m[K’:
+[2.743s] [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:181:32:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Klong int[m[K’ to ‘[01m[Kdouble[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+[2.745s]   181 |                         [01;35m[K( last - first )[m[K;
+[2.746s]       |                         [01;35m[K~~~~~~~^~~~~~~~~[m[K
+[2.746s] [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:[m[K In function ‘[01m[Kdouble Catch::Benchmark::Detail::weighted_average_quantile(int, int, double*, double*)[m[K’:
+[2.746s] [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:216:42:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Klong int[m[K’ to ‘[01m[Kdouble[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+[2.746s]   216 |                 double idx = [01;35m[K(count - 1) * k[m[K / static_cast<double>(q);
+[2.746s]       |                              [01;35m[K~~~~~~~~~~~~^~~[m[K
+[2.755s] [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:[m[K In function ‘[01m[KCatch::Benchmark::Estimate<double> Catch::Benchmark::Detail::bootstrap(double, double*, double*, const sample&, double (*)(const double*, const double*))[m[K’:
+[2.756s] [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:320:34:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Kstd::__iterator_traits<__gnu_cxx::__normal_iterator<const double*, std::vector<double> >, void>::difference_type[m[K’ {aka ‘[01m[Klong int[m[K’} to ‘[01m[Kdouble[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+[2.757s]   320 |                     [01;35m[Kstd::count_if( resample.begin(),[m[K
+[2.758s]       |                     [01;35m[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[2.759s]   321 | [01;35m[K                                   resample.end(),[m[K
+[2.759s]       |                                    [01;35m[K~~~~~~~~~~~~~~~[m[K
+[2.759s]   322 | [01;35m[K                                   [point]( double x ) { return x < point; } )[m[K /
+[2.759s]       |                                    [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.058s] [ 12%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.o[0m
+[3.117s] [ 13%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.o[0m
+[3.206s] [ 13%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.o[0m
+[3.217s] [ 14%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o[0m
+[4.093s] [ 15%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o[0m
+[4.126s] [ 15%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.o[0m
+[4.172s] [ 16%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.o[0m
+[4.383s] [ 17%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.o[0m
+[4.556s] [ 18%] [32m[1mLinking CXX executable single_include_test[0m
+[4.712s] [ 18%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_json.cpp.o[0m
+[4.867s] [ 19%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.o[0m
+[4.945s] [ 20%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.o[0m
+[5.082s] [ 21%] [32m[1mLinking CXX static library libcsv.a[0m
+[5.109s] [ 21%] Built target single_include_test
+[5.127s] [ 21%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.o[0m
+[5.294s] [ 21%] Built target csv
+[5.317s] [ 22%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.o[0m
+[5.379s] [ 23%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.o[0m
+[5.438s] [ 24%] [32mBuilding CXX object programs/CMakeFiles/csv_info.dir/csv_info.cpp.o[0m
+[5.653s] [ 24%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.o[0m
+[5.706s] [ 25%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.o[0m
+[5.840s] [ 26%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.o[0m
+[6.128s] [ 26%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.o[0m
+[6.148s] [ 27%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.o[0m
+[6.164s] [ 28%] [32mBuilding CXX object programs/CMakeFiles/csv_stats.dir/csv_stats.cpp.o[0m
+[6.591s] [ 28%] [32mBuilding CXX object programs/CMakeFiles/csv_guess_bench.dir/csv_guess_bench.cpp.o[0m
+[6.718s] [ 29%] [32mBuilding CXX object programs/CMakeFiles/csv_bench.dir/csv_bench.cpp.o[0m
+[6.770s] [ 30%] [32mBuilding CXX object programs/CMakeFiles/csv_generator.dir/csv_generator.cpp.o[0m
+[6.801s] [ 31%] [32mBuilding CXX object programs/CMakeFiles/data_type_bench.dir/data_type_bench.cpp.o[0m
+[6.810s] [ 32%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.o[0m
+[7.075s] [ 32%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.o[0m
+[7.176s] [ 33%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.o[0m
+[7.358s] [ 34%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.o[0m
+[7.383s] [ 34%] [32m[1mLinking CXX executable csv_info[0m
+[7.470s] [ 34%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.o[0m
+[7.706s] [ 34%] Built target csv_info
+[7.719s] [ 35%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.o[0m
+[7.749s] [ 36%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.o[0m
+[7.848s] [ 36%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.o[0m
+[7.889s] [ 37%] [32m[1mLinking CXX executable csv_stats[0m
+[8.120s] [ 38%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.o[0m
+[8.173s] [ 39%] [32m[1mLinking CXX executable csv_guess_bench[0m
+[8.290s] [ 39%] [32m[1mLinking CXX executable csv_bench[0m
+[8.294s] [ 39%] Built target csv_stats
+[8.307s] [ 40%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.o[0m
+[8.347s] [ 40%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.o[0m
+[8.406s] [ 41%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.o[0m
+[8.472s] [ 42%] [32m[1mLinking CXX executable csv_generator[0m
+[8.509s] [ 42%] Built target csv_guess_bench
+[8.509s] [ 43%] [32m[1mLinking CXX executable data_type_bench[0m
+[8.535s] [ 44%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o[0m
+[8.751s] [ 44%] Built target csv_generator
+[8.784s] [ 44%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.o[0m
+[8.789s] [ 44%] Built target csv_bench
+[8.803s] [ 45%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.o[0m
+[8.820s] [ 45%] Built target data_type_bench
+[8.832s] [ 46%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o[0m
+[8.846s] [ 46%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.o[0m
+[8.935s] [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/catch_timer.cpp:[m[K In member function ‘[01m[Kdouble Catch::Timer::getElapsedSeconds() const[m[K’:
+[8.935s] [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/catch_timer.cpp:33:38:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kdouble[m[K’ may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+[8.935s]    33 |         return [01;35m[KgetElapsedMicroseconds()[m[K/1000000.0;
+[8.935s]       |                [01;35m[K~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[9.011s] [ 47%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.o[0m
+[9.079s] [ 47%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.o[0m
+[9.081s] [ 48%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.o[0m
+[9.150s] [ 49%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.o[0m
+[9.251s] [ 50%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o[0m
+[9.454s] [ 50%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.o[0m
+[9.489s] [ 51%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.o[0m
+[9.589s] [ 52%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.o[0m
+[9.773s] [ 52%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.o[0m
+[9.811s] [ 53%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.o[0m
+[9.841s] [ 54%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.o[0m
+[9.848s] [ 54%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.o[0m
+[9.944s] [ 55%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.o[0m
+[10.007s] [ 56%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.o[0m
+[10.176s] [ 56%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.o[0m
+[10.276s] [ 57%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.o[0m
+[10.299s] [ 58%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.o[0m
+[10.337s] [ 58%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.o[0m
+[10.429s] [ 59%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o[0m
+[10.440s] [ 60%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.o[0m
+[10.497s] [ 60%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.o[0m
+[10.690s] [ 61%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwriter.cpp.o[0m
+[10.763s] [ 62%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.o[0m
+[10.764s] [ 62%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.o[0m
+[10.956s] [ 63%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o[0m
+[11.023s] [ 64%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.o[0m
+[11.051s] [ 64%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.o[0m
+[11.072s] [ 65%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.o[0m
+[11.185s] [ 66%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.o[0m
+[11.224s] [ 66%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.o[0m
+[11.255s] [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp:[m[K In member function ‘[01m[KCatch::SimplePcg32::result_type Catch::SimplePcg32::operator()()[m[K’:
+[11.255s] [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp:55:62:[m[K [01;35m[Kwarning: [m[Kconversion from ‘[01m[Kuint64_t[m[K’ {aka ‘[01m[Klong unsigned int[m[K’} to ‘[01m[Kuint32_t[m[K’ {aka ‘[01m[Kunsigned int[m[K’} may change value [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion-Wconversion]8;;[m[K]
+[11.255s]    55 |         const auto output = rotate_right(xorshifted, [01;35m[Km_state >> 59u[m[K);
+[11.255s]       |                                                      [01;35m[K~~~~~~~~^~~~~~[m[K
+[11.283s] [ 67%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.o[0m
+[11.323s] [ 68%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.o[0m
+[11.412s] [ 68%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.o[0m
+[11.432s] [ 69%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_result_type.cpp.o[0m
+[11.451s] [ 70%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.o[0m
+[11.466s] [ 70%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.o[0m
+[11.473s] [ 71%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.o[0m
+[11.850s] [ 72%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.o[0m
+[11.978s] [ 72%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.o[0m
+[11.983s] [ 73%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.o[0m
+[12.044s] [ 74%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.o[0m
+[12.087s] [ 74%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.o[0m
+[12.161s] [ 75%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.o[0m
+[12.210s] [ 76%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.o[0m
+[12.251s] [ 76%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.o[0m
+[12.374s] [ 77%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.o[0m
+[12.487s] [ 78%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.o[0m
+[12.564s] [ 78%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.o[0m
+[12.570s] [ 79%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.o[0m
+[12.580s] [ 80%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.o[0m
+[12.715s] [ 80%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.o[0m
+[12.770s] [ 81%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.o[0m
+[12.881s] [ 82%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.o[0m
+[12.905s] [ 82%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.o[0m
+[12.909s] [ 83%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.o[0m
+[13.156s] [ 84%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.o[0m
+[13.174s] [ 84%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.o[0m
+[13.282s] [ 85%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.o[0m
+[13.442s] [ 86%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.o[0m
+[13.524s] [ 86%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.o[0m
+[13.543s] [ 87%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o[0m
+[13.659s] [ 88%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.o[0m
+[13.675s] [ 88%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.o[0m
+[15.469s] [ 89%] [32m[1mLinking CXX static library libCatch2.a[0m
+[15.602s] [ 89%] Built target Catch2
+[15.620s] [ 90%] [32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o[0m
+[15.986s] [ 90%] [32m[1mLinking CXX static library libCatch2Main.a[0m
+[16.009s] [ 90%] Built target Catch2WithMain
+[16.033s] [ 93%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_csv_iterator.cpp.o[0m
+[16.036s] [ 93%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_csv_format.cpp.o[0m
+[16.037s] [ 93%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/main.cpp.o[0m
+[16.037s] [ 94%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_csv_row.cpp.o[0m
+[16.037s] [ 93%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_csv_field_array.cpp.o[0m
+[16.037s] [ 93%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_csv_row_json.cpp.o[0m
+[16.037s] [ 93%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_csv_field.cpp.o[0m
+[16.037s] [ 95%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_csv_stat.cpp.o[0m
+[17.390s] [ 96%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_guess_csv.cpp.o[0m
+[18.144s] [ 96%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_read_csv.cpp.o[0m
+[18.163s] [ 97%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_read_csv_file.cpp.o[0m
+[18.531s] [ 98%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_write_csv.cpp.o[0m
+[18.788s] [ 98%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_data_type.cpp.o[0m
+[18.808s] [ 99%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.o[0m
+[19.028s] [100%] [32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_round_trip.cpp.o[0m
+[19.759s] In file included from [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/generators/catch_generators_all.hpp:25[m[K,
+[19.760s]                  from [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_all.hpp:46[m[K,
+[19.761s]                  from [01m[K/home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv.cpp:7[m[K:
+[19.762s] [01m[K/home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv.cpp:[m[K In lambda function:
+[19.762s] [01m[K/home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv.cpp:189:13:[m[K [01;35m[Kwarning: [m[Kleft operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[19.762s]   189 |             [01;35m[K"A,B,C\r\n" // Header row[m[K
+[19.762s]       |             [01;35m[K^~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[19.763s]   190 | [01;35m[K            "123,234,345\r\n"[m[K
+[19.763s]       |             [01;35m[K~~~~~~~~~~~~~~~~~[m[K
+[19.763s]   191 | [01;35m[K            "1,2,3\r\n"[m[K
+[19.763s]       |             [01;35m[K~~~~~~~~~~~[m[K
+[19.763s]   192 | [01;35m[K            "4,5,6"[m[K,
+[19.763s]       |             [01;35m[K~~~~~~~[m[K
+[19.763s] [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/generators/catch_generators.hpp:234:97:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGENERATE[m[K’
+[19.763s]   234 |                                  [ ]{ using namespace Catch::Generators; return makeGenerators( [01;36m[K__VA_ARGS__[m[K ); } ) //NOLINT(google-build-using-namespace)
+[19.763s]       |                                                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[19.763s] [01m[K/home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv.cpp:204:13:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[19.763s]   204 |             [01;35m[K"4,5,6"[m[K,
+[19.763s]       |             [01;35m[K^~~~~~~[m[K
+[19.763s] [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/generators/catch_generators.hpp:234:97:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGENERATE[m[K’
+[19.764s]   234 |                                  [ ]{ using namespace Catch::Generators; return makeGenerators( [01;36m[K__VA_ARGS__[m[K ); } ) //NOLINT(google-build-using-namespace)
+[19.764s]       |                                                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[19.764s] [01m[K/home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv.cpp:210:13:[m[K [01;35m[Kwarning: [m[Kright operand of comma operator has no effect [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value-Wunused-value]8;;[m[K]
+[19.764s]   210 |             [01;35m[K"4,5,6"[m[K
+[19.764s]       |             [01;35m[K^~~~~~~[m[K
+[19.764s] [01m[K/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/generators/catch_generators.hpp:234:97:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KGENERATE[m[K’
+[19.764s]   234 |                                  [ ]{ using namespace Catch::Generators; return makeGenerators( [01;36m[K__VA_ARGS__[m[K ); } ) //NOLINT(google-build-using-namespace)
+[19.764s]       |                                                                                                 [01;36m[K^~~~~~~~~~~[m[K
+[21.346s] [100%] [32m[1mLinking CXX executable csv_test[0m
+[22.056s] [100%] Built target csv_test

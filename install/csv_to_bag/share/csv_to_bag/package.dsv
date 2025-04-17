@@ -1,0 +1,8 @@
+source;share/csv_to_bag/hook/cmake_prefix_path.ps1
+source;share/csv_to_bag/hook/cmake_prefix_path.dsv
+source;share/csv_to_bag/hook/cmake_prefix_path.sh
+source;share/csv_to_bag/local_setup.bash
+source;share/csv_to_bag/local_setup.dsv
+source;share/csv_to_bag/local_setup.ps1
+source;share/csv_to_bag/local_setup.sh
+source;share/csv_to_bag/local_setup.zsh
