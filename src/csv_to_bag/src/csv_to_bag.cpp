@@ -15,7 +15,7 @@ public:
     CsvToBag() : Node("csv_to_bag") {
 
         writer_ = std::make_shared<rosbag2_cpp::Writer>();
-        writer_->open("/home/user/Eurobot-excel/src/csv_to_bag/bag/test2_bag");
+        writer_->open("/home/user/excel-to-bag/src/csv_to_bag/bag/test3_bag");
 
         read_and_publish();
     }
@@ -23,7 +23,7 @@ public:
 private:
     void read_and_publish() {
 
-        CSVReader csv_reader("/home/user/Eurobot-excel/src/csv_to_bag/data/test2.csv");
+        CSVReader csv_reader("/home/user/excel-to-bag/src/csv_to_bag/data/test3.csv");
         CSVRow row;
 
         rclcpp::Serialization<nav_msgs::msg::Odometry> serializer;
@@ -52,11 +52,17 @@ private:
 
         for (int i = 0; i < count; i++) {
             
-            // stop or give up
-            if (i > 0 && !flag && (z[i] == -2 || z[i] == -3)){
+            // stop
+            if (i > 0 && !flag && z[i] == -2){
 
                 x[i] = x[i-1];
                 y[i] = y[i-1];
+            }
+            //give up
+            if (i > 0 && !flag && z[i] == -3){
+
+                x[i] = -1;
+                y[i] = -1;
             }
             // start to move
             else if (z[i] == -1 || z[i] == -2){
@@ -74,7 +80,7 @@ private:
 
                 if(i == 100){
 
-                    for(int j=100, j > 100-interval; j--){
+                    for(int j=100; j > 100-interval; j--){
 
                         x[j] = 0;
                         y[j] = 0;

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/Eurobot-excel/src/csv-parser
+CMAKE_SOURCE_DIR = /home/user/excel-to-bag/src/csv-parser
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/Eurobot-excel/build/csv
+CMAKE_BINARY_DIR = /home/user/excel-to-bag/build/csv
 
 # Utility rule file for generate_single_header.
 
@@ -67,8 +67,8 @@ include CMakeFiles/generate_single_header.dir/compiler_depend.make
 include CMakeFiles/generate_single_header.dir/progress.make
 
 CMakeFiles/generate_single_header:
-	cd /home/user/Eurobot-excel/src/csv-parser && /usr/bin/python3.10 single_header.py > single_include/csv.hpp
-	cd /home/user/Eurobot-excel/src/csv-parser && /usr/bin/python3.10 single_header.py > single_include_test/csv.hpp
+	cd /home/user/excel-to-bag/src/csv-parser && /usr/bin/python3.10 single_header.py > single_include/csv.hpp
+	cd /home/user/excel-to-bag/src/csv-parser && /usr/bin/python3.10 single_header.py > single_include_test/csv.hpp
 
 generate_single_header: CMakeFiles/generate_single_header
 generate_single_header: CMakeFiles/generate_single_header.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/generate_single_header.dir/clean:
 .PHONY : CMakeFiles/generate_single_header.dir/clean
 
 CMakeFiles/generate_single_header.dir/depend:
-	cd /home/user/Eurobot-excel/build/csv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/Eurobot-excel/src/csv-parser /home/user/Eurobot-excel/src/csv-parser /home/user/Eurobot-excel/build/csv /home/user/Eurobot-excel/build/csv /home/user/Eurobot-excel/build/csv/CMakeFiles/generate_single_header.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/excel-to-bag/build/csv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/excel-to-bag/src/csv-parser /home/user/excel-to-bag/src/csv-parser /home/user/excel-to-bag/build/csv /home/user/excel-to-bag/build/csv /home/user/excel-to-bag/build/csv/CMakeFiles/generate_single_header.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/generate_single_header.dir/depend
 

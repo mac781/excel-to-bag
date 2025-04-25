@@ -1,0 +1,14 @@
+[  2%] Built target single_include_test
+[  9%] Built target csv
+[35m[1mConsolidate compiler generated dependencies of target Catch2[0m
+[ 10%] Built target csv_info
+[ 12%] Built target csv_stats
+[ 13%] Built target csv_guess_bench
+[ 15%] Built target data_type_bench
+[ 17%] Built target csv_generator
+[ 18%] Built target csv_bench
+[ 89%] Built target Catch2
+[35m[1mConsolidate compiler generated dependencies of target Catch2WithMain[0m
+[ 90%] Built target Catch2WithMain
+[35m[1mConsolidate compiler generated dependencies of target csv_test[0m
+[100%] Built target csv_test

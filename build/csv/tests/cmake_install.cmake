@@ -1,8 +1,8 @@
-# Install script for directory: /home/user/Eurobot-excel/src/csv-parser/tests
+# Install script for directory: /home/user/excel-to-bag/src/csv-parser/tests
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/user/Eurobot-excel/install/csv")
+  set(CMAKE_INSTALL_PREFIX "/home/user/excel-to-bag/install/csv")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/user/Eurobot-excel/build/csv/_deps/catch2-build/cmake_install.cmake")
+  include("/home/user/excel-to-bag/build/csv/_deps/catch2-build/cmake_install.cmake")
 
 endif()
 

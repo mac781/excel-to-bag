@@ -22,8 +22,8 @@ set_property(GLOBAL PROPERTY _CMAKE_FindGit_GIT_EXECUTABLE_VERSION
 include(ExternalProject)
 ExternalProject_Add(catch2-populate
                      "UPDATE_DISCONNECTED" "False" "GIT_REPOSITORY" "https://github.com/catchorg/Catch2.git" "GIT_TAG" "v3.6.0"
-                    SOURCE_DIR          "/home/user/Eurobot-excel/build/csv/_deps/catch2-src"
-                    BINARY_DIR          "/home/user/Eurobot-excel/build/csv/_deps/catch2-build"
+                    SOURCE_DIR          "/home/user/excel-to-bag/build/csv/_deps/catch2-src"
+                    BINARY_DIR          "/home/user/excel-to-bag/build/csv/_deps/catch2-build"
                     CONFIGURE_COMMAND   ""
                     BUILD_COMMAND       ""
                     INSTALL_COMMAND     ""

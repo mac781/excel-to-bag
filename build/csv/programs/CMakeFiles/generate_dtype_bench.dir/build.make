@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/Eurobot-excel/src/csv-parser
+CMAKE_SOURCE_DIR = /home/user/excel-to-bag/src/csv-parser
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/Eurobot-excel/build/csv
+CMAKE_BINARY_DIR = /home/user/excel-to-bag/build/csv
 
 # Utility rule file for generate_dtype_bench.
 
@@ -67,7 +67,7 @@ include programs/CMakeFiles/generate_dtype_bench.dir/compiler_depend.make
 include programs/CMakeFiles/generate_dtype_bench.dir/progress.make
 
 programs/CMakeFiles/generate_dtype_bench:
-	cd /home/user/Eurobot-excel/src/csv-parser/tests/data/real_data && /home/user/Eurobot-excel/build/csv/programs/data_type_bench 2015_StateDepartment.csv Regular\ Pay
+	cd /home/user/excel-to-bag/src/csv-parser/tests/data/real_data && /home/user/excel-to-bag/build/csv/programs/data_type_bench 2015_StateDepartment.csv Regular\ Pay
 
 generate_dtype_bench: programs/CMakeFiles/generate_dtype_bench
 generate_dtype_bench: programs/CMakeFiles/generate_dtype_bench.dir/build.make
@@ -78,10 +78,10 @@ programs/CMakeFiles/generate_dtype_bench.dir/build: generate_dtype_bench
 .PHONY : programs/CMakeFiles/generate_dtype_bench.dir/build
 
 programs/CMakeFiles/generate_dtype_bench.dir/clean:
-	cd /home/user/Eurobot-excel/build/csv/programs && $(CMAKE_COMMAND) -P CMakeFiles/generate_dtype_bench.dir/cmake_clean.cmake
+	cd /home/user/excel-to-bag/build/csv/programs && $(CMAKE_COMMAND) -P CMakeFiles/generate_dtype_bench.dir/cmake_clean.cmake
 .PHONY : programs/CMakeFiles/generate_dtype_bench.dir/clean
 
 programs/CMakeFiles/generate_dtype_bench.dir/depend:
-	cd /home/user/Eurobot-excel/build/csv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/Eurobot-excel/src/csv-parser /home/user/Eurobot-excel/src/csv-parser/programs /home/user/Eurobot-excel/build/csv /home/user/Eurobot-excel/build/csv/programs /home/user/Eurobot-excel/build/csv/programs/CMakeFiles/generate_dtype_bench.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/excel-to-bag/build/csv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/excel-to-bag/src/csv-parser /home/user/excel-to-bag/src/csv-parser/programs /home/user/excel-to-bag/build/csv /home/user/excel-to-bag/build/csv/programs /home/user/excel-to-bag/build/csv/programs/CMakeFiles/generate_dtype_bench.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : programs/CMakeFiles/generate_dtype_bench.dir/depend
 

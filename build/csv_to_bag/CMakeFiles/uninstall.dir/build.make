@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/Eurobot-excel/src/csv_to_bag
+CMAKE_SOURCE_DIR = /home/user/excel-to-bag/src/csv_to_bag
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/Eurobot-excel/build/csv_to_bag
+CMAKE_BINARY_DIR = /home/user/excel-to-bag/build/csv_to_bag
 
 # Utility rule file for uninstall.
 
@@ -78,6 +78,6 @@ CMakeFiles/uninstall.dir/clean:
 .PHONY : CMakeFiles/uninstall.dir/clean
 
 CMakeFiles/uninstall.dir/depend:
-	cd /home/user/Eurobot-excel/build/csv_to_bag && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/Eurobot-excel/src/csv_to_bag /home/user/Eurobot-excel/src/csv_to_bag /home/user/Eurobot-excel/build/csv_to_bag /home/user/Eurobot-excel/build/csv_to_bag /home/user/Eurobot-excel/build/csv_to_bag/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/excel-to-bag/build/csv_to_bag && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/excel-to-bag/src/csv_to_bag /home/user/excel-to-bag/src/csv_to_bag /home/user/excel-to-bag/build/csv_to_bag /home/user/excel-to-bag/build/csv_to_bag /home/user/excel-to-bag/build/csv_to_bag/CMakeFiles/uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/uninstall.dir/depend
 

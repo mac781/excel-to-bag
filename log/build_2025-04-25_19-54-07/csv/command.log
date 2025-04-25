@@ -1,0 +1,1 @@
+Invoking command in '/home/user/excel-to-bag/build/csv': /usr/bin/cmake /home/user/excel-to-bag/src/csv-parser -DCMAKE_INSTALL_PREFIX=/home/user/excel-to-bag/install/csv

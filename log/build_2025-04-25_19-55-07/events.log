@@ -1,0 +1,323 @@
+[0.000000] (-) TimerEvent: {}
+[0.000916] (csv) JobQueued: {'identifier': 'csv', 'dependencies': OrderedDict()}
+[0.001152] (csv_to_bag) JobQueued: {'identifier': 'csv_to_bag', 'dependencies': OrderedDict()}
+[0.001194] (csv) JobStarted: {'identifier': 'csv'}
+[0.012511] (csv_to_bag) JobStarted: {'identifier': 'csv_to_bag'}
+[0.021399] (csv) JobProgress: {'identifier': 'csv', 'progress': 'cmake'}
+[0.023226] (csv) JobProgress: {'identifier': 'csv', 'progress': 'build'}
+[0.025181] (csv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/excel-to-bag/build/csv', '--', '-j8', '-l8'], 'cwd': '/home/user/excel-to-bag/build/csv', 'env': OrderedDict([('HOSTNAME', 'mac-VivoBook-ASUSLaptop-X515EA-X515EA'), ('GIT_ASKPASS', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/user'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f669f2bf-aca7-4b57-9aba-e0946869955b.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/user/excel-to-bag/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-75aaac66-7042-4d92-b961-37fa3273e4f1.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-75aaac66-7042-4d92-b961-37fa3273e4f1.sock","/home/user/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3bee2ad916.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-75aaac66-7042-4d92-b961-37fa3273e4f1.sock'), ('AMENT_PREFIX_PATH', '/home/user/excel-to-bag/install/csv_to_bag'), ('SHELL', '/bin/bash'), ('ROS_WS', '/home/user/excel-to-bag'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/excel-to-bag/build/csv'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/excel-to-bag/install/csv_to_bag')]), 'shell': False}
+[0.037429] (csv_to_bag) JobProgress: {'identifier': 'csv_to_bag', 'progress': 'cmake'}
+[0.038845] (csv_to_bag) Command: {'cmd': ['/usr/bin/cmake', '/home/user/excel-to-bag/src/csv_to_bag', '-DCMAKE_INSTALL_PREFIX=/home/user/excel-to-bag/install/csv_to_bag'], 'cwd': '/home/user/excel-to-bag/build/csv_to_bag', 'env': OrderedDict([('HOSTNAME', 'mac-VivoBook-ASUSLaptop-X515EA-X515EA'), ('GIT_ASKPASS', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/user'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f669f2bf-aca7-4b57-9aba-e0946869955b.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/user/excel-to-bag/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-75aaac66-7042-4d92-b961-37fa3273e4f1.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-75aaac66-7042-4d92-b961-37fa3273e4f1.sock","/home/user/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3bee2ad916.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-75aaac66-7042-4d92-b961-37fa3273e4f1.sock'), ('AMENT_PREFIX_PATH', '/home/user/excel-to-bag/install/csv_to_bag'), ('SHELL', '/bin/bash'), ('ROS_WS', '/home/user/excel-to-bag'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/excel-to-bag/build/csv_to_bag'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/excel-to-bag/install/csv_to_bag')]), 'shell': False}
+[0.099581] (-) TimerEvent: {}
+[0.101418] (csv_to_bag) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.101893] (csv_to_bag) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.102134] (csv_to_bag) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.102322] (csv_to_bag) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.102503] (csv_to_bag) StderrLine: {'line': b'\n'}
+[0.102678] (csv_to_bag) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.102872] (csv_to_bag) StderrLine: {'line': b'  any of the following names:\n'}
+[0.103048] (csv_to_bag) StderrLine: {'line': b'\n'}
+[0.103217] (csv_to_bag) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.103386] (csv_to_bag) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.103554] (csv_to_bag) StderrLine: {'line': b'\n'}
+[0.103715] (csv_to_bag) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.103903] (csv_to_bag) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.104070] (csv_to_bag) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.104238] (csv_to_bag) StderrLine: {'line': b'  has been installed.\n'}
+[0.104407] (csv_to_bag) StderrLine: {'line': b'\n'}
+[0.104575] (csv_to_bag) StderrLine: {'line': b'\x1b[0m\n'}
+[0.104745] (csv_to_bag) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.105041] (csv_to_bag) StdoutLine: {'line': b'See also "/home/user/excel-to-bag/build/csv_to_bag/CMakeFiles/CMakeOutput.log".\n'}
+[0.106553] (csv_to_bag) CommandEnded: {'returncode': 1}
+[0.119732] (csv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target single_include_test\x1b[0m\n'}
+[0.125497] (csv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target csv\x1b[0m\n'}
+[0.157292] (csv) StdoutLine: {'line': b'[  2%] Built target single_include_test\n'}
+[0.164722] (csv) StdoutLine: {'line': b'[  9%] Built target csv\n'}
+[0.168142] (csv_to_bag) JobEnded: {'identifier': 'csv_to_bag', 'rc': 1}
+[0.177467] (csv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target Catch2\x1b[0m\n'}
+[0.191143] (csv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target csv_info\x1b[0m\n'}
+[0.191567] (csv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target csv_guess_bench\x1b[0m\n'}
+[0.193956] (csv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target csv_stats\x1b[0m\n'}
+[0.199725] (-) TimerEvent: {}
+[0.209377] (csv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target data_type_bench\x1b[0m\n'}
+[0.209814] (csv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target csv_generator\x1b[0m\n'}
+[0.223886] (csv) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target csv_bench\x1b[0m\n'}
+[0.248292] (csv) StdoutLine: {'line': b'[ 10%] Built target csv_info\n'}
+[0.257029] (csv) StdoutLine: {'line': b'[ 12%] Built target csv_stats\n'}
+[0.265012] (csv) StdoutLine: {'line': b'[ 14%] Built target csv_generator\n'}
+[0.283464] (csv) StdoutLine: {'line': b'[ 15%] Built target csv_guess_bench\n'}
+[0.299900] (-) TimerEvent: {}
+[0.306180] (csv) StdoutLine: {'line': b'[ 16%] Built target csv_bench\n'}
+[0.328117] (csv) StdoutLine: {'line': b'[ 18%] Built target data_type_bench\n'}
+[0.400050] (-) TimerEvent: {}
+[0.431925] (csv) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o\x1b[0m\n'}
+[0.500205] (-) TimerEvent: {}
+[0.602336] (-) TimerEvent: {}
+[0.702873] (-) TimerEvent: {}
+[0.803320] (-) TimerEvent: {}
+[0.903843] (-) TimerEvent: {}
+[1.004375] (-) TimerEvent: {}
+[1.104890] (-) TimerEvent: {}
+[1.205411] (-) TimerEvent: {}
+[1.305919] (-) TimerEvent: {}
+[1.406379] (-) TimerEvent: {}
+[1.506847] (-) TimerEvent: {}
+[1.607644] (-) TimerEvent: {}
+[1.708996] (-) TimerEvent: {}
+[1.810701] (-) TimerEvent: {}
+[1.911367] (-) TimerEvent: {}
+[2.011996] (-) TimerEvent: {}
+[2.112648] (-) TimerEvent: {}
+[2.213289] (-) TimerEvent: {}
+[2.313742] (-) TimerEvent: {}
+[2.414211] (-) TimerEvent: {}
+[2.514645] (-) TimerEvent: {}
+[2.615086] (-) TimerEvent: {}
+[2.715534] (-) TimerEvent: {}
+[2.815938] (-) TimerEvent: {}
+[2.916446] (-) TimerEvent: {}
+[3.017038] (-) TimerEvent: {}
+[3.117644] (-) TimerEvent: {}
+[3.218125] (-) TimerEvent: {}
+[3.318633] (-) TimerEvent: {}
+[3.419047] (-) TimerEvent: {}
+[3.519470] (-) TimerEvent: {}
+[3.619970] (-) TimerEvent: {}
+[3.720472] (-) TimerEvent: {}
+[3.820973] (-) TimerEvent: {}
+[3.921476] (-) TimerEvent: {}
+[4.022135] (-) TimerEvent: {}
+[4.122645] (-) TimerEvent: {}
+[4.223180] (-) TimerEvent: {}
+[4.323662] (-) TimerEvent: {}
+[4.424140] (-) TimerEvent: {}
+[4.524560] (-) TimerEvent: {}
+[4.625018] (-) TimerEvent: {}
+[4.725561] (-) TimerEvent: {}
+[4.826021] (-) TimerEvent: {}
+[4.926457] (-) TimerEvent: {}
+[5.026967] (-) TimerEvent: {}
+[5.127471] (-) TimerEvent: {}
+[5.228138] (-) TimerEvent: {}
+[5.328729] (-) TimerEvent: {}
+[5.429212] (-) TimerEvent: {}
+[5.462458] (csv) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX static library libCatch2.a\x1b[0m\n'}
+[5.529360] (-) TimerEvent: {}
+[5.629845] (-) TimerEvent: {}
+[5.730370] (-) TimerEvent: {}
+[5.801178] (csv) StdoutLine: {'line': b'[ 89%] Built target Catch2\n'}
+[5.830525] (-) TimerEvent: {}
+[5.836204] (csv) StdoutLine: {'line': b'[ 90%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2WithMain.dir/catch2/internal/catch_main.cpp.o\x1b[0m\n'}
+[5.930733] (-) TimerEvent: {}
+[6.031245] (-) TimerEvent: {}
+[6.131695] (-) TimerEvent: {}
+[6.232233] (-) TimerEvent: {}
+[6.332757] (-) TimerEvent: {}
+[6.433290] (-) TimerEvent: {}
+[6.533716] (-) TimerEvent: {}
+[6.634259] (-) TimerEvent: {}
+[6.734806] (-) TimerEvent: {}
+[6.835285] (-) TimerEvent: {}
+[6.915119] (csv) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking CXX static library libCatch2Main.a\x1b[0m\n'}
+[6.935424] (-) TimerEvent: {}
+[6.977415] (csv) StdoutLine: {'line': b'[ 90%] Built target Catch2WithMain\n'}
+[7.019963] (csv) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_csv_field.cpp.o\x1b[0m\n'}
+[7.020395] (csv) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/main.cpp.o\x1b[0m\n'}
+[7.020611] (csv) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_csv_field_array.cpp.o\x1b[0m\n'}
+[7.021782] (csv) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_csv_format.cpp.o\x1b[0m\n'}
+[7.022070] (csv) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_csv_row_json.cpp.o\x1b[0m\n'}
+[7.022265] (csv) StdoutLine: {'line': b'[ 94%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_csv_row.cpp.o\x1b[0m\n'}
+[7.022446] (csv) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_csv_iterator.cpp.o\x1b[0m\n'}
+[7.022606] (csv) StdoutLine: {'line': b'[ 95%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_csv_stat.cpp.o\x1b[0m\n'}
+[7.037024] (-) TimerEvent: {}
+[7.137665] (-) TimerEvent: {}
+[7.238266] (-) TimerEvent: {}
+[7.342057] (-) TimerEvent: {}
+[7.442629] (-) TimerEvent: {}
+[7.543200] (-) TimerEvent: {}
+[7.645703] (-) TimerEvent: {}
+[7.746609] (-) TimerEvent: {}
+[7.848101] (-) TimerEvent: {}
+[7.952906] (-) TimerEvent: {}
+[8.053554] (-) TimerEvent: {}
+[8.159509] (-) TimerEvent: {}
+[8.260152] (-) TimerEvent: {}
+[8.360776] (-) TimerEvent: {}
+[8.461386] (-) TimerEvent: {}
+[8.563031] (-) TimerEvent: {}
+[8.665920] (-) TimerEvent: {}
+[8.766533] (-) TimerEvent: {}
+[8.871902] (-) TimerEvent: {}
+[8.972503] (-) TimerEvent: {}
+[9.076886] (-) TimerEvent: {}
+[9.177473] (-) TimerEvent: {}
+[9.278116] (-) TimerEvent: {}
+[9.379909] (-) TimerEvent: {}
+[9.481059] (-) TimerEvent: {}
+[9.584453] (-) TimerEvent: {}
+[9.685096] (-) TimerEvent: {}
+[9.785727] (-) TimerEvent: {}
+[9.888249] (-) TimerEvent: {}
+[9.996912] (-) TimerEvent: {}
+[10.106900] (-) TimerEvent: {}
+[10.208284] (-) TimerEvent: {}
+[10.318748] (-) TimerEvent: {}
+[10.424055] (-) TimerEvent: {}
+[10.531843] (-) TimerEvent: {}
+[10.637289] (-) TimerEvent: {}
+[10.741054] (-) TimerEvent: {}
+[10.844674] (-) TimerEvent: {}
+[10.946685] (-) TimerEvent: {}
+[11.049896] (-) TimerEvent: {}
+[11.127961] (csv) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_guess_csv.cpp.o\x1b[0m\n'}
+[11.150067] (-) TimerEvent: {}
+[11.250688] (-) TimerEvent: {}
+[11.354402] (-) TimerEvent: {}
+[11.455290] (-) TimerEvent: {}
+[11.557901] (-) TimerEvent: {}
+[11.658525] (-) TimerEvent: {}
+[11.759406] (-) TimerEvent: {}
+[11.862980] (-) TimerEvent: {}
+[11.972378] (-) TimerEvent: {}
+[12.083336] (-) TimerEvent: {}
+[12.103604] (csv) StdoutLine: {'line': b'[ 96%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_read_csv.cpp.o\x1b[0m\n'}
+[12.186148] (-) TimerEvent: {}
+[12.286863] (-) TimerEvent: {}
+[12.390940] (-) TimerEvent: {}
+[12.492915] (-) TimerEvent: {}
+[12.593536] (-) TimerEvent: {}
+[12.695455] (-) TimerEvent: {}
+[12.796633] (-) TimerEvent: {}
+[12.899590] (-) TimerEvent: {}
+[13.005523] (-) TimerEvent: {}
+[13.108954] (-) TimerEvent: {}
+[13.213702] (-) TimerEvent: {}
+[13.316893] (-) TimerEvent: {}
+[13.420903] (-) TimerEvent: {}
+[13.528902] (-) TimerEvent: {}
+[13.611901] (csv) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_read_csv_file.cpp.o\x1b[0m\n'}
+[13.632906] (-) TimerEvent: {}
+[13.737441] (-) TimerEvent: {}
+[13.839120] (-) TimerEvent: {}
+[13.873927] (csv) StdoutLine: {'line': b'[ 98%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_write_csv.cpp.o\x1b[0m\n'}
+[13.939294] (-) TimerEvent: {}
+[14.042917] (-) TimerEvent: {}
+[14.170811] (-) TimerEvent: {}
+[14.275725] (-) TimerEvent: {}
+[14.376434] (-) TimerEvent: {}
+[14.478224] (-) TimerEvent: {}
+[14.580106] (-) TimerEvent: {}
+[14.680891] (-) TimerEvent: {}
+[14.784270] (-) TimerEvent: {}
+[14.885240] (-) TimerEvent: {}
+[14.986090] (-) TimerEvent: {}
+[15.070997] (csv) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.o\x1b[0m\n'}
+[15.082836] (csv) StdoutLine: {'line': b'[ 99%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_data_type.cpp.o\x1b[0m\n'}
+[15.086328] (-) TimerEvent: {}
+[15.186989] (-) TimerEvent: {}
+[15.288798] (-) TimerEvent: {}
+[15.390345] (-) TimerEvent: {}
+[15.419000] (csv) StdoutLine: {'line': b'[100%] \x1b[32mBuilding CXX object tests/CMakeFiles/csv_test.dir/test_round_trip.cpp.o\x1b[0m\n'}
+[15.490498] (-) TimerEvent: {}
+[15.594348] (-) TimerEvent: {}
+[15.695220] (-) TimerEvent: {}
+[15.798333] (-) TimerEvent: {}
+[15.898986] (-) TimerEvent: {}
+[16.000165] (-) TimerEvent: {}
+[16.104157] (-) TimerEvent: {}
+[16.178203] (csv) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/generators/catch_generators_all.hpp:25\x1b[m\x1b[K,\n'}
+[16.178702] (csv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_all.hpp:46\x1b[m\x1b[K,\n'}
+[16.178972] (csv) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/user/excel-to-bag/src/csv-parser/tests/test_read_csv.cpp:7\x1b[m\x1b[K:\n'}
+[16.179191] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/src/csv-parser/tests/test_read_csv.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[16.179412] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/src/csv-parser/tests/test_read_csv.cpp:189:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kleft operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.179665] (csv) StderrLine: {'line': b'  189 |             \x1b[01;35m\x1b[K"A,B,C\\r\\n" // Header row\x1b[m\x1b[K\n'}
+[16.179916] (csv) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.180181] (csv) StderrLine: {'line': b'  190 | \x1b[01;35m\x1b[K            "123,234,345\\r\\n"\x1b[m\x1b[K\n'}
+[16.180400] (csv) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.180616] (csv) StderrLine: {'line': b'  191 | \x1b[01;35m\x1b[K            "1,2,3\\r\\n"\x1b[m\x1b[K\n'}
+[16.180857] (csv) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.181080] (csv) StderrLine: {'line': b'  192 | \x1b[01;35m\x1b[K            "4,5,6"\x1b[m\x1b[K,\n'}
+[16.187246] (csv) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~\x1b[m\x1b[K\n'}
+[16.187498] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/generators/catch_generators.hpp:234:97:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KGENERATE\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.187722] (csv) StderrLine: {'line': b'  234 |                                  [ ]{ using namespace Catch::Generators; return makeGenerators( \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K ); } ) //NOLINT(google-build-using-namespace)\n'}
+[16.187989] (csv) StderrLine: {'line': b'      |                                                                                                 \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.188206] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/src/csv-parser/tests/test_read_csv.cpp:204:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kright operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.188421] (csv) StderrLine: {'line': b'  204 |             \x1b[01;35m\x1b[K"4,5,6"\x1b[m\x1b[K,\n'}
+[16.188619] (csv) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[16.188827] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/generators/catch_generators.hpp:234:97:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KGENERATE\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.189052] (csv) StderrLine: {'line': b'  234 |                                  [ ]{ using namespace Catch::Generators; return makeGenerators( \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K ); } ) //NOLINT(google-build-using-namespace)\n'}
+[16.189264] (csv) StderrLine: {'line': b'      |                                                                                                 \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.189458] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/src/csv-parser/tests/test_read_csv.cpp:210:13:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kright operand of comma operator has no effect [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-value\x07-Wunused-value\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[16.189653] (csv) StderrLine: {'line': b'  210 |             \x1b[01;35m\x1b[K"4,5,6"\x1b[m\x1b[K\n'}
+[16.194127] (csv) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[16.194419] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/generators/catch_generators.hpp:234:97:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kin definition of macro \xe2\x80\x98\x1b[01m\x1b[KGENERATE\x1b[m\x1b[K\xe2\x80\x99\n'}
+[16.194647] (csv) StderrLine: {'line': b'  234 |                                  [ ]{ using namespace Catch::Generators; return makeGenerators( \x1b[01;36m\x1b[K__VA_ARGS__\x1b[m\x1b[K ); } ) //NOLINT(google-build-using-namespace)\n'}
+[16.194882] (csv) StderrLine: {'line': b'      |                                                                                                 \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[16.204313] (-) TimerEvent: {}
+[16.307172] (-) TimerEvent: {}
+[16.410994] (-) TimerEvent: {}
+[16.511727] (-) TimerEvent: {}
+[16.612613] (-) TimerEvent: {}
+[16.714547] (-) TimerEvent: {}
+[16.818332] (-) TimerEvent: {}
+[16.919599] (-) TimerEvent: {}
+[17.021888] (-) TimerEvent: {}
+[17.123005] (-) TimerEvent: {}
+[17.231306] (-) TimerEvent: {}
+[17.333688] (-) TimerEvent: {}
+[17.434979] (-) TimerEvent: {}
+[17.536189] (-) TimerEvent: {}
+[17.637157] (-) TimerEvent: {}
+[17.738214] (-) TimerEvent: {}
+[17.838849] (-) TimerEvent: {}
+[17.940488] (-) TimerEvent: {}
+[18.043843] (-) TimerEvent: {}
+[18.145451] (-) TimerEvent: {}
+[18.247498] (-) TimerEvent: {}
+[18.348128] (-) TimerEvent: {}
+[18.448637] (-) TimerEvent: {}
+[18.549253] (-) TimerEvent: {}
+[18.649854] (-) TimerEvent: {}
+[18.752893] (-) TimerEvent: {}
+[18.853507] (-) TimerEvent: {}
+[18.954192] (-) TimerEvent: {}
+[19.058898] (-) TimerEvent: {}
+[19.159527] (-) TimerEvent: {}
+[19.260454] (-) TimerEvent: {}
+[19.361072] (-) TimerEvent: {}
+[19.462094] (-) TimerEvent: {}
+[19.563901] (-) TimerEvent: {}
+[19.664632] (-) TimerEvent: {}
+[19.765248] (-) TimerEvent: {}
+[19.866399] (-) TimerEvent: {}
+[19.967003] (-) TimerEvent: {}
+[20.067759] (-) TimerEvent: {}
+[20.168995] (-) TimerEvent: {}
+[20.269596] (-) TimerEvent: {}
+[20.370200] (-) TimerEvent: {}
+[20.470750] (-) TimerEvent: {}
+[20.571347] (-) TimerEvent: {}
+[20.671845] (-) TimerEvent: {}
+[20.772340] (-) TimerEvent: {}
+[20.872884] (-) TimerEvent: {}
+[20.973330] (-) TimerEvent: {}
+[21.044025] (csv) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable csv_test\x1b[0m\n'}
+[21.073509] (-) TimerEvent: {}
+[21.179804] (-) TimerEvent: {}
+[21.280331] (-) TimerEvent: {}
+[21.380929] (-) TimerEvent: {}
+[21.481448] (-) TimerEvent: {}
+[21.582084] (-) TimerEvent: {}
+[21.682573] (-) TimerEvent: {}
+[21.783072] (-) TimerEvent: {}
+[21.883714] (-) TimerEvent: {}
+[21.984444] (-) TimerEvent: {}
+[22.085357] (-) TimerEvent: {}
+[22.185951] (-) TimerEvent: {}
+[22.286410] (-) TimerEvent: {}
+[22.386886] (-) TimerEvent: {}
+[22.487355] (-) TimerEvent: {}
+[22.587879] (-) TimerEvent: {}
+[22.637037] (csv) StdoutLine: {'line': b'[100%] Built target csv_test\n'}
+[22.660207] (csv) JobEnded: {'identifier': 'csv', 'rc': 'SIGINT'}
+[22.671730] (-) EventReactorShutdown: {}
