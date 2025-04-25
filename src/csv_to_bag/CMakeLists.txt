@@ -13,7 +13,7 @@ find_package(nav_msgs REQUIRED)
 find_package(rosbag2_cpp REQUIRED)
 
 include_directories(
-  ~/Eurobot-excel/src/csv-parser/single_include
+  ~/excel-to-bag/src/csv-parser/single_include
   ${catkin_INCLUDE_DIRS}
 )
 

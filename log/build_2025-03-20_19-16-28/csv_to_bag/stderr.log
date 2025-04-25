@@ -1,8 +1,0 @@
-[31mCMake Error at CMakeLists.txt:15 (add_subdirectory):
-  add_subdirectory not given a binary directory but the given source
-  directory "/home/user/Eurobot-excel/src/csv-parser" is not a subdirectory
-  of "/home/user/Eurobot-excel/src/csv_to_bag".  When specifying an
-  out-of-tree source a binary directory must be explicitly specified.
-
-[0m
-gmake: *** [Makefile:267: cmake_check_build_system] Error 1

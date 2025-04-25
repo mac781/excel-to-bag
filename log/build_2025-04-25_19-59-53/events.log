@@ -1,0 +1,187 @@
+[0.000000] (-) TimerEvent: {}
+[0.001053] (csv) JobQueued: {'identifier': 'csv', 'dependencies': OrderedDict()}
+[0.001395] (csv_to_bag) JobQueued: {'identifier': 'csv_to_bag', 'dependencies': OrderedDict()}
+[0.001675] (csv) JobStarted: {'identifier': 'csv'}
+[0.015055] (csv_to_bag) JobStarted: {'identifier': 'csv_to_bag'}
+[0.029535] (csv) JobProgress: {'identifier': 'csv', 'progress': 'cmake'}
+[0.031054] (csv) JobProgress: {'identifier': 'csv', 'progress': 'build'}
+[0.032693] (csv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/excel-to-bag/build/csv', '--', '-j8', '-l8'], 'cwd': '/home/user/excel-to-bag/build/csv', 'env': OrderedDict([('HOSTNAME', 'mac-VivoBook-ASUSLaptop-X515EA-X515EA'), ('GIT_ASKPASS', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/user'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f669f2bf-aca7-4b57-9aba-e0946869955b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/user/excel-to-bag/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-75aaac66-7042-4d92-b961-37fa3273e4f1.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-75aaac66-7042-4d92-b961-37fa3273e4f1.sock","/home/user/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3bee2ad916.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-75aaac66-7042-4d92-b961-37fa3273e4f1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/user/excel-to-bag/install/csv_to_bag'), ('SHELL', '/bin/bash'), ('ROS_WS', '/home/user/excel-to-bag'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/excel-to-bag/build/csv'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/excel-to-bag/install/csv_to_bag')]), 'shell': False}
+[0.043368] (csv_to_bag) JobProgress: {'identifier': 'csv_to_bag', 'progress': 'cmake'}
+[0.044689] (csv_to_bag) JobProgress: {'identifier': 'csv_to_bag', 'progress': 'build'}
+[0.046264] (csv_to_bag) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/excel-to-bag/build/csv_to_bag', '--', '-j8', '-l8'], 'cwd': '/home/user/excel-to-bag/build/csv_to_bag', 'env': OrderedDict([('HOSTNAME', 'mac-VivoBook-ASUSLaptop-X515EA-X515EA'), ('GIT_ASKPASS', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/user'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f669f2bf-aca7-4b57-9aba-e0946869955b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/user/excel-to-bag/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-75aaac66-7042-4d92-b961-37fa3273e4f1.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-75aaac66-7042-4d92-b961-37fa3273e4f1.sock","/home/user/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3bee2ad916.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-75aaac66-7042-4d92-b961-37fa3273e4f1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/user/excel-to-bag/install/csv_to_bag'), ('SHELL', '/bin/bash'), ('ROS_WS', '/home/user/excel-to-bag'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/excel-to-bag/build/csv_to_bag'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/excel-to-bag/install/csv_to_bag:/opt/ros/humble')]), 'shell': False}
+[0.099663] (-) TimerEvent: {}
+[0.151338] (csv_to_bag) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target csv_to_bag\x1b[0m\n'}
+[0.158899] (csv) StdoutLine: {'line': b'[  2%] Built target single_include_test\n'}
+[0.162234] (csv) StdoutLine: {'line': b'[  9%] Built target csv\n'}
+[0.199744] (-) TimerEvent: {}
+[0.205284] (csv_to_bag) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/csv_to_bag.dir/src/csv_to_bag.cpp.o\x1b[0m\n'}
+[0.222425] (csv) StdoutLine: {'line': b'[ 12%] Built target csv_stats\n'}
+[0.223876] (csv) StdoutLine: {'line': b'[ 12%] Built target csv_guess_bench\n'}
+[0.224318] (csv) StdoutLine: {'line': b'[ 13%] Built target csv_info\n'}
+[0.226413] (csv) StdoutLine: {'line': b'[ 15%] Built target csv_generator\n'}
+[0.227309] (csv) StdoutLine: {'line': b'[ 17%] Built target data_type_bench\n'}
+[0.230152] (csv) StdoutLine: {'line': b'[ 18%] Built target csv_bench\n'}
+[0.261393] (csv) StdoutLine: {'line': b'[ 89%] Built target Catch2\n'}
+[0.299880] (-) TimerEvent: {}
+[0.308902] (csv) StdoutLine: {'line': b'[ 90%] Built target Catch2WithMain\n'}
+[0.393682] (csv) StdoutLine: {'line': b'[100%] Built target csv_test\n'}
+[0.399999] (-) TimerEvent: {}
+[0.420211] (csv) CommandEnded: {'returncode': 0}
+[0.444126] (csv) JobEnded: {'identifier': 'csv', 'rc': 0}
+[0.500519] (-) TimerEvent: {}
+[0.600999] (-) TimerEvent: {}
+[0.701598] (-) TimerEvent: {}
+[0.802185] (-) TimerEvent: {}
+[0.902722] (-) TimerEvent: {}
+[1.003194] (-) TimerEvent: {}
+[1.103727] (-) TimerEvent: {}
+[1.204205] (-) TimerEvent: {}
+[1.304636] (-) TimerEvent: {}
+[1.405110] (-) TimerEvent: {}
+[1.505581] (-) TimerEvent: {}
+[1.606056] (-) TimerEvent: {}
+[1.706519] (-) TimerEvent: {}
+[1.806970] (-) TimerEvent: {}
+[1.907496] (-) TimerEvent: {}
+[2.007977] (-) TimerEvent: {}
+[2.108546] (-) TimerEvent: {}
+[2.209075] (-) TimerEvent: {}
+[2.309513] (-) TimerEvent: {}
+[2.409957] (-) TimerEvent: {}
+[2.510362] (-) TimerEvent: {}
+[2.610903] (-) TimerEvent: {}
+[2.711393] (-) TimerEvent: {}
+[2.811828] (-) TimerEvent: {}
+[2.912451] (-) TimerEvent: {}
+[3.012982] (-) TimerEvent: {}
+[3.113444] (-) TimerEvent: {}
+[3.213884] (-) TimerEvent: {}
+[3.314365] (-) TimerEvent: {}
+[3.414816] (-) TimerEvent: {}
+[3.515301] (-) TimerEvent: {}
+[3.615767] (-) TimerEvent: {}
+[3.716348] (-) TimerEvent: {}
+[3.816794] (-) TimerEvent: {}
+[3.917265] (-) TimerEvent: {}
+[4.017710] (-) TimerEvent: {}
+[4.118175] (-) TimerEvent: {}
+[4.218668] (-) TimerEvent: {}
+[4.319146] (-) TimerEvent: {}
+[4.419697] (-) TimerEvent: {}
+[4.520381] (-) TimerEvent: {}
+[4.621027] (-) TimerEvent: {}
+[4.721689] (-) TimerEvent: {}
+[4.822146] (-) TimerEvent: {}
+[4.922664] (-) TimerEvent: {}
+[5.023163] (-) TimerEvent: {}
+[5.123649] (-) TimerEvent: {}
+[5.224239] (-) TimerEvent: {}
+[5.324994] (-) TimerEvent: {}
+[5.425679] (-) TimerEvent: {}
+[5.526151] (-) TimerEvent: {}
+[5.626663] (-) TimerEvent: {}
+[5.727184] (-) TimerEvent: {}
+[5.827758] (-) TimerEvent: {}
+[5.928291] (-) TimerEvent: {}
+[6.042913] (-) TimerEvent: {}
+[6.143522] (-) TimerEvent: {}
+[6.244069] (-) TimerEvent: {}
+[6.344706] (-) TimerEvent: {}
+[6.445235] (-) TimerEvent: {}
+[6.545847] (-) TimerEvent: {}
+[6.646511] (-) TimerEvent: {}
+[6.688452] (csv_to_bag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/src/csv_to_bag/src/csv_to_bag.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid CsvToBag::read_and_publish()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[6.688918] (csv_to_bag) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/src/csv_to_bag/src/csv_to_bag.cpp:130:27:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kvoid rosbag2_cpp::Writer::write(const rclcpp::SerializedMessage&, const string&, const string&, const rclcpp::Time&)\x1b[m\x1b[K\xe2\x80\x99 is deprecated: Use write(std::shared_ptr<rclcpp::SerializedMessage> message, const std::string & topic_name, const std::string & type_name, const rclcpp::Time & time) instead. [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations\x07-Wdeprecated-declarations\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[6.689176] (csv_to_bag) StderrLine: {'line': b'  130 |             \x1b[01;35m\x1b[Kwriter_->write(serialized_msg, "/rival/pose", "nav_msgs/msg/Odometry", ros_time)\x1b[m\x1b[K;\n'}
+[6.689405] (csv_to_bag) StderrLine: {'line': b'      |             \x1b[01;35m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[6.689608] (csv_to_bag) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/user/excel-to-bag/src/csv_to_bag/src/csv_to_bag.cpp:3\x1b[m\x1b[K:\n'}
+[6.689808] (csv_to_bag) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:156:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kdeclared here\n'}
+[6.690007] (csv_to_bag) StderrLine: {'line': b'  156 |   void \x1b[01;36m\x1b[Kwrite\x1b[m\x1b[K(\n'}
+[6.690200] (csv_to_bag) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[6.746727] (-) TimerEvent: {}
+[6.847247] (-) TimerEvent: {}
+[6.947874] (-) TimerEvent: {}
+[7.048491] (-) TimerEvent: {}
+[7.149117] (-) TimerEvent: {}
+[7.249785] (-) TimerEvent: {}
+[7.350240] (-) TimerEvent: {}
+[7.450755] (-) TimerEvent: {}
+[7.551369] (-) TimerEvent: {}
+[7.651897] (-) TimerEvent: {}
+[7.752373] (-) TimerEvent: {}
+[7.852960] (-) TimerEvent: {}
+[7.953533] (-) TimerEvent: {}
+[8.054127] (-) TimerEvent: {}
+[8.154595] (-) TimerEvent: {}
+[8.255105] (-) TimerEvent: {}
+[8.355710] (-) TimerEvent: {}
+[8.456417] (-) TimerEvent: {}
+[8.557024] (-) TimerEvent: {}
+[8.657607] (-) TimerEvent: {}
+[8.758119] (-) TimerEvent: {}
+[8.858604] (-) TimerEvent: {}
+[8.959137] (-) TimerEvent: {}
+[9.059769] (-) TimerEvent: {}
+[9.160278] (-) TimerEvent: {}
+[9.260919] (-) TimerEvent: {}
+[9.361507] (-) TimerEvent: {}
+[9.462027] (-) TimerEvent: {}
+[9.562589] (-) TimerEvent: {}
+[9.663100] (-) TimerEvent: {}
+[9.763647] (-) TimerEvent: {}
+[9.864179] (-) TimerEvent: {}
+[9.964691] (-) TimerEvent: {}
+[10.065149] (-) TimerEvent: {}
+[10.165674] (-) TimerEvent: {}
+[10.266118] (-) TimerEvent: {}
+[10.366561] (-) TimerEvent: {}
+[10.466971] (-) TimerEvent: {}
+[10.567367] (-) TimerEvent: {}
+[10.667802] (-) TimerEvent: {}
+[10.768271] (-) TimerEvent: {}
+[10.868687] (-) TimerEvent: {}
+[10.969123] (-) TimerEvent: {}
+[11.069561] (-) TimerEvent: {}
+[11.170081] (-) TimerEvent: {}
+[11.270613] (-) TimerEvent: {}
+[11.371240] (-) TimerEvent: {}
+[11.471862] (-) TimerEvent: {}
+[11.572425] (-) TimerEvent: {}
+[11.672964] (-) TimerEvent: {}
+[11.773537] (-) TimerEvent: {}
+[11.874084] (-) TimerEvent: {}
+[11.974561] (-) TimerEvent: {}
+[12.075064] (-) TimerEvent: {}
+[12.175609] (-) TimerEvent: {}
+[12.276203] (-) TimerEvent: {}
+[12.281143] (csv_to_bag) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable csv_to_bag\x1b[0m\n'}
+[12.376462] (-) TimerEvent: {}
+[12.477094] (-) TimerEvent: {}
+[12.577720] (-) TimerEvent: {}
+[12.678239] (-) TimerEvent: {}
+[12.695538] (csv_to_bag) StdoutLine: {'line': b'[100%] Built target csv_to_bag\n'}
+[12.721919] (csv_to_bag) CommandEnded: {'returncode': 0}
+[12.723123] (csv_to_bag) JobProgress: {'identifier': 'csv_to_bag', 'progress': 'install'}
+[12.739030] (csv_to_bag) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/excel-to-bag/build/csv_to_bag'], 'cwd': '/home/user/excel-to-bag/build/csv_to_bag', 'env': OrderedDict([('HOSTNAME', 'mac-VivoBook-ASUSLaptop-X515EA-X515EA'), ('GIT_ASKPASS', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/user'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f669f2bf-aca7-4b57-9aba-e0946869955b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/user/excel-to-bag/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-75aaac66-7042-4d92-b961-37fa3273e4f1.sock'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-75aaac66-7042-4d92-b961-37fa3273e4f1.sock","/home/user/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3bee2ad916.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-75aaac66-7042-4d92-b961-37fa3273e4f1.sock'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/home/user/excel-to-bag/install/csv_to_bag'), ('SHELL', '/bin/bash'), ('ROS_WS', '/home/user/excel-to-bag'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/excel-to-bag/build/csv_to_bag'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/excel-to-bag/install/csv_to_bag:/opt/ros/humble')]), 'shell': False}
+[12.754083] (csv_to_bag) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[12.754480] (csv_to_bag) StdoutLine: {'line': b'-- Installing: /home/user/excel-to-bag/install/csv_to_bag/lib/csv_to_bag/csv_to_bag\n'}
+[12.756337] (csv_to_bag) StdoutLine: {'line': b'-- Set runtime path of "/home/user/excel-to-bag/install/csv_to_bag/lib/csv_to_bag/csv_to_bag" to ""\n'}
+[12.756726] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/excel-to-bag/install/csv_to_bag/share/ament_index/resource_index/package_run_dependencies/csv_to_bag\n'}
+[12.757435] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/excel-to-bag/install/csv_to_bag/share/ament_index/resource_index/parent_prefix_path/csv_to_bag\n'}
+[12.757610] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/excel-to-bag/install/csv_to_bag/share/csv_to_bag/environment/ament_prefix_path.sh\n'}
+[12.757753] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/excel-to-bag/install/csv_to_bag/share/csv_to_bag/environment/ament_prefix_path.dsv\n'}
+[12.757976] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/excel-to-bag/install/csv_to_bag/share/csv_to_bag/environment/path.sh\n'}
+[12.758149] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/excel-to-bag/install/csv_to_bag/share/csv_to_bag/environment/path.dsv\n'}
+[12.758414] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/excel-to-bag/install/csv_to_bag/share/csv_to_bag/local_setup.bash\n'}
+[12.758541] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/excel-to-bag/install/csv_to_bag/share/csv_to_bag/local_setup.sh\n'}
+[12.758658] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/excel-to-bag/install/csv_to_bag/share/csv_to_bag/local_setup.zsh\n'}
+[12.758772] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/excel-to-bag/install/csv_to_bag/share/csv_to_bag/local_setup.dsv\n'}
+[12.758885] (csv_to_bag) StdoutLine: {'line': b'-- Installing: /home/user/excel-to-bag/install/csv_to_bag/share/csv_to_bag/package.dsv\n'}
+[12.758999] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/excel-to-bag/install/csv_to_bag/share/ament_index/resource_index/packages/csv_to_bag\n'}
+[12.759112] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/excel-to-bag/install/csv_to_bag/share/csv_to_bag/cmake/csv_to_bagConfig.cmake\n'}
+[12.759223] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/excel-to-bag/install/csv_to_bag/share/csv_to_bag/cmake/csv_to_bagConfig-version.cmake\n'}
+[12.759359] (csv_to_bag) StdoutLine: {'line': b'-- Up-to-date: /home/user/excel-to-bag/install/csv_to_bag/share/csv_to_bag/package.xml\n'}
+[12.761058] (csv_to_bag) CommandEnded: {'returncode': 0}
+[12.778614] (-) TimerEvent: {}
+[12.786036] (csv_to_bag) JobEnded: {'identifier': 'csv_to_bag', 'rc': 0}
+[12.787653] (-) EventReactorShutdown: {}

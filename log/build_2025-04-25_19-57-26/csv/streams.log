@@ -1,0 +1,15 @@
+[0.034s] Invoking command in '/home/user/excel-to-bag/build/csv': /usr/bin/cmake --build /home/user/excel-to-bag/build/csv -- -j8 -l8
+[0.152s] [  2%] Built target single_include_test
+[0.158s] [  9%] Built target csv
+[0.182s] [35m[1mConsolidate compiler generated dependencies of target Catch2[0m
+[0.214s] [ 10%] Built target csv_info
+[0.217s] [ 12%] Built target csv_stats
+[0.217s] [ 13%] Built target csv_guess_bench
+[0.218s] [ 15%] Built target data_type_bench
+[0.218s] [ 17%] Built target csv_generator
+[0.221s] [ 18%] Built target csv_bench
+[0.353s] [ 89%] Built target Catch2
+[0.373s] [35m[1mConsolidate compiler generated dependencies of target Catch2WithMain[0m
+[0.394s] [ 90%] Built target Catch2WithMain
+[0.431s] [35m[1mConsolidate compiler generated dependencies of target csv_test[0m
+[0.507s] [100%] Built target csv_test

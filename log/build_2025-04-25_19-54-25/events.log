@@ -1,0 +1,555 @@
+[0.000000] (-) TimerEvent: {}
+[0.000875] (csv) JobQueued: {'identifier': 'csv', 'dependencies': OrderedDict()}
+[0.001100] (csv_to_bag) JobQueued: {'identifier': 'csv_to_bag', 'dependencies': OrderedDict()}
+[0.001142] (csv) JobStarted: {'identifier': 'csv'}
+[0.011272] (csv_to_bag) JobStarted: {'identifier': 'csv_to_bag'}
+[0.020529] (csv) JobProgress: {'identifier': 'csv', 'progress': 'cmake'}
+[0.022361] (csv) JobProgress: {'identifier': 'csv', 'progress': 'build'}
+[0.024796] (csv) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/excel-to-bag/build/csv', '--', '-j8', '-l8'], 'cwd': '/home/user/excel-to-bag/build/csv', 'env': OrderedDict([('HOSTNAME', 'mac-VivoBook-ASUSLaptop-X515EA-X515EA'), ('GIT_ASKPASS', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/user'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f669f2bf-aca7-4b57-9aba-e0946869955b.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/user/excel-to-bag/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-75aaac66-7042-4d92-b961-37fa3273e4f1.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-75aaac66-7042-4d92-b961-37fa3273e4f1.sock","/home/user/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3bee2ad916.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-75aaac66-7042-4d92-b961-37fa3273e4f1.sock'), ('AMENT_PREFIX_PATH', '/home/user/excel-to-bag/install/csv_to_bag'), ('SHELL', '/bin/bash'), ('ROS_WS', '/home/user/excel-to-bag'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/excel-to-bag/build/csv'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/excel-to-bag/install/csv_to_bag')]), 'shell': False}
+[0.038644] (csv_to_bag) JobProgress: {'identifier': 'csv_to_bag', 'progress': 'cmake'}
+[0.040809] (csv_to_bag) Command: {'cmd': ['/usr/bin/cmake', '/home/user/excel-to-bag/src/csv_to_bag', '-DCMAKE_INSTALL_PREFIX=/home/user/excel-to-bag/install/csv_to_bag'], 'cwd': '/home/user/excel-to-bag/build/csv_to_bag', 'env': OrderedDict([('HOSTNAME', 'mac-VivoBook-ASUSLaptop-X515EA-X515EA'), ('GIT_ASKPASS', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('BROWSER', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/helpers/browser.sh'), ('HOME', '/home/user'), ('TERM_PROGRAM_VERSION', '1.96.4'), ('VSCODE_IPC_HOOK_CLI', '/tmp/vscode-ipc-f669f2bf-aca7-4b57-9aba-e0946869955b.sock'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/extensions/git/dist/askpass-main.js'), ('VSCODE_GIT_ASKPASS_NODE', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/node'), ('COLORTERM', 'truecolor'), ('REMOTE_CONTAINERS', 'true'), ('COLCON_PREFIX_PATH', '/home/user/excel-to-bag/install'), ('ROS_DISTRO', 'humble'), ('REMOTE_CONTAINERS_IPC', '/tmp/vscode-remote-containers-ipc-75aaac66-7042-4d92-b961-37fa3273e4f1.sock'), ('_', '/usr/bin/colcon'), ('TERM', 'xterm-256color'), ('PATH', '/home/user/.vscode-server/bin/cd4ee3b1c348a13bafd8f9ad8060705f6d4b9cba/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/user/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('REMOTE_CONTAINERS_SOCKETS', '["/tmp/vscode-ssh-auth-75aaac66-7042-4d92-b961-37fa3273e4f1.sock","/home/user/.gnupg/S.gpg-agent"]'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/root/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/tmp/vscode-git-3bee2ad916.sock'), ('TERM_PROGRAM', 'vscode'), ('SSH_AUTH_SOCK', '/tmp/vscode-ssh-auth-75aaac66-7042-4d92-b961-37fa3273e4f1.sock'), ('AMENT_PREFIX_PATH', '/home/user/excel-to-bag/install/csv_to_bag'), ('SHELL', '/bin/bash'), ('ROS_WS', '/home/user/excel-to-bag'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/user/excel-to-bag/build/csv_to_bag'), ('LC_ALL', 'C.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/user/excel-to-bag/install/csv_to_bag')]), 'shell': False}
+[0.099645] (-) TimerEvent: {}
+[0.102803] (csv_to_bag) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:9 (find_package):\n'}
+[0.103297] (csv_to_bag) StderrLine: {'line': b'  By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project\n'}
+[0.103471] (csv_to_bag) StderrLine: {'line': b'  has asked CMake to find a package configuration file provided by\n'}
+[0.103604] (csv_to_bag) StderrLine: {'line': b'  "ament_cmake", but CMake did not find one.\n'}
+[0.103757] (csv_to_bag) StderrLine: {'line': b'\n'}
+[0.103871] (csv_to_bag) StderrLine: {'line': b'  Could not find a package configuration file provided by "ament_cmake" with\n'}
+[0.103976] (csv_to_bag) StderrLine: {'line': b'  any of the following names:\n'}
+[0.104084] (csv_to_bag) StderrLine: {'line': b'\n'}
+[0.104213] (csv_to_bag) StderrLine: {'line': b'    ament_cmakeConfig.cmake\n'}
+[0.104424] (csv_to_bag) StderrLine: {'line': b'    ament_cmake-config.cmake\n'}
+[0.104617] (csv_to_bag) StderrLine: {'line': b'\n'}
+[0.104760] (csv_to_bag) StderrLine: {'line': b'  Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set\n'}
+[0.104873] (csv_to_bag) StderrLine: {'line': b'  "ament_cmake_DIR" to a directory containing one of the above files.  If\n'}
+[0.104985] (csv_to_bag) StderrLine: {'line': b'  "ament_cmake" provides a separate development package or SDK, be sure it\n'}
+[0.105095] (csv_to_bag) StderrLine: {'line': b'  has been installed.\n'}
+[0.105207] (csv_to_bag) StderrLine: {'line': b'\n'}
+[0.105320] (csv_to_bag) StderrLine: {'line': b'\x1b[0m\n'}
+[0.105486] (csv_to_bag) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[0.105648] (csv_to_bag) StdoutLine: {'line': b'See also "/home/user/excel-to-bag/build/csv_to_bag/CMakeFiles/CMakeOutput.log".\n'}
+[0.107862] (csv_to_bag) CommandEnded: {'returncode': 1}
+[0.146294] (csv) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object include/internal/CMakeFiles/csv.dir/basic_csv_parser.cpp.o\x1b[0m\n'}
+[0.150852] (csv) StdoutLine: {'line': b'[  1%] \x1b[32mBuilding CXX object single_include_test/CMakeFiles/single_include_test.dir/file1.cpp.o\x1b[0m\n'}
+[0.151111] (csv) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object single_include_test/CMakeFiles/single_include_test.dir/file2.cpp.o\x1b[0m\n'}
+[0.151311] (csv) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object include/internal/CMakeFiles/csv.dir/col_names.cpp.o\x1b[0m\n'}
+[0.155688] (csv) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object include/internal/CMakeFiles/csv.dir/csv_format.cpp.o\x1b[0m\n'}
+[0.165831] (csv) StdoutLine: {'line': b'[  4%] \x1b[32mBuilding CXX object include/internal/CMakeFiles/csv.dir/csv_reader_iterator.cpp.o\x1b[0m\n'}
+[0.166255] (csv) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object include/internal/CMakeFiles/csv.dir/csv_reader.cpp.o\x1b[0m\n'}
+[0.166517] (csv) StdoutLine: {'line': b'[  5%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/catch_chronometer.cpp.o\x1b[0m\n'}
+[0.188648] (csv_to_bag) JobEnded: {'identifier': 'csv_to_bag', 'rc': 1}
+[0.199788] (-) TimerEvent: {}
+[0.300496] (-) TimerEvent: {}
+[0.403785] (-) TimerEvent: {}
+[0.493044] (csv) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_analyse.cpp.o\x1b[0m\n'}
+[0.505437] (-) TimerEvent: {}
+[0.606032] (-) TimerEvent: {}
+[0.711463] (-) TimerEvent: {}
+[0.812125] (-) TimerEvent: {}
+[0.912745] (-) TimerEvent: {}
+[1.013953] (-) TimerEvent: {}
+[1.118708] (-) TimerEvent: {}
+[1.221971] (-) TimerEvent: {}
+[1.322638] (-) TimerEvent: {}
+[1.423974] (-) TimerEvent: {}
+[1.532221] (-) TimerEvent: {}
+[1.633995] (-) TimerEvent: {}
+[1.739074] (-) TimerEvent: {}
+[1.849488] (-) TimerEvent: {}
+[1.950430] (-) TimerEvent: {}
+[2.055668] (-) TimerEvent: {}
+[2.159685] (-) TimerEvent: {}
+[2.264927] (-) TimerEvent: {}
+[2.274742] (csv) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_benchmark_function.cpp.o\x1b[0m\n'}
+[2.366472] (-) TimerEvent: {}
+[2.468456] (-) TimerEvent: {}
+[2.572487] (-) TimerEvent: {}
+[2.673761] (-) TimerEvent: {}
+[2.752918] (csv) StdoutLine: {'line': b'[  7%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_run_for_at_least.cpp.o\x1b[0m\n'}
+[2.773942] (-) TimerEvent: {}
+[2.874659] (-) TimerEvent: {}
+[2.976935] (-) TimerEvent: {}
+[3.077544] (-) TimerEvent: {}
+[3.179265] (-) TimerEvent: {}
+[3.281465] (-) TimerEvent: {}
+[3.382077] (-) TimerEvent: {}
+[3.394005] (csv) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/benchmark/detail/catch_stats.cpp.o\x1b[0m\n'}
+[3.483470] (-) TimerEvent: {}
+[3.584115] (-) TimerEvent: {}
+[3.615999] (csv) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generator_exception.cpp.o\x1b[0m\n'}
+[3.691736] (-) TimerEvent: {}
+[3.800811] (-) TimerEvent: {}
+[3.906048] (-) TimerEvent: {}
+[3.911248] (csv) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators.cpp.o\x1b[0m\n'}
+[3.944281] (csv) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object include/internal/CMakeFiles/csv.dir/csv_row.cpp.o\x1b[0m\n'}
+[4.006301] (-) TimerEvent: {}
+[4.125480] (-) TimerEvent: {}
+[4.237458] (-) TimerEvent: {}
+[4.338077] (-) TimerEvent: {}
+[4.439255] (-) TimerEvent: {}
+[4.540143] (-) TimerEvent: {}
+[4.642057] (-) TimerEvent: {}
+[4.746465] (-) TimerEvent: {}
+[4.827871] (csv) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/generators/catch_generators_random.cpp.o\x1b[0m\n'}
+[4.846622] (-) TimerEvent: {}
+[4.947263] (-) TimerEvent: {}
+[5.049068] (-) TimerEvent: {}
+[5.153711] (-) TimerEvent: {}
+[5.255199] (-) TimerEvent: {}
+[5.356035] (-) TimerEvent: {}
+[5.356968] (csv) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_automake.cpp.o\x1b[0m\n'}
+[5.454428] (csv) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_common_base.cpp.o\x1b[0m\n'}
+[5.456267] (-) TimerEvent: {}
+[5.558367] (-) TimerEvent: {}
+[5.661369] (-) TimerEvent: {}
+[5.721149] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kdouble Catch::Benchmark::Detail::{anonymous}::standard_deviation(const double*, const double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.721748] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:181:32:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 may change value [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion\x07-Wconversion\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.722036] (csv) StderrLine: {'line': b'  181 |                         \x1b[01;35m\x1b[K( last - first )\x1b[m\x1b[K;\n'}
+[5.722261] (csv) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.731459] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kdouble Catch::Benchmark::Detail::weighted_average_quantile(int, int, double*, double*)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.731973] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:216:42:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 may change value [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion\x07-Wconversion\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.732244] (csv) StderrLine: {'line': b'  216 |                 double idx = \x1b[01;35m\x1b[K(count - 1) * k\x1b[m\x1b[K / static_cast<double>(q);\n'}
+[5.732532] (csv) StderrLine: {'line': b'      |                              \x1b[01;35m\x1b[K~~~~~~~~~~~~^~~\x1b[m\x1b[K\n'}
+[5.742672] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[KCatch::Benchmark::Estimate<double> Catch::Benchmark::Detail::bootstrap(double, double*, double*, const sample&, double (*)(const double*, const double*))\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.743191] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/benchmark/detail/catch_stats.cpp:320:34:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kstd::__iterator_traits<__gnu_cxx::__normal_iterator<const double*, std::vector<double> >, void>::difference_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 may change value [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion\x07-Wconversion\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.743517] (csv) StderrLine: {'line': b'  320 |                     \x1b[01;35m\x1b[Kstd::count_if( resample.begin(),\x1b[m\x1b[K\n'}
+[5.743765] (csv) StderrLine: {'line': b'      |                     \x1b[01;35m\x1b[K~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.743990] (csv) StderrLine: {'line': b'  321 | \x1b[01;35m\x1b[K                                   resample.end(),\x1b[m\x1b[K\n'}
+[5.744199] (csv) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.744443] (csv) StderrLine: {'line': b'  322 | \x1b[01;35m\x1b[K                                   [point]( double x ) { return x < point; } )\x1b[m\x1b[K /\n'}
+[5.744669] (csv) StderrLine: {'line': b'      |                                    \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.773263] (-) TimerEvent: {}
+[5.874467] (-) TimerEvent: {}
+[5.976651] (-) TimerEvent: {}
+[5.989834] (csv) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object include/internal/CMakeFiles/csv.dir/csv_row_json.cpp.o\x1b[0m\n'}
+[6.076829] (-) TimerEvent: {}
+[6.182939] (-) TimerEvent: {}
+[6.283976] (-) TimerEvent: {}
+[6.384613] (-) TimerEvent: {}
+[6.486464] (-) TimerEvent: {}
+[6.588477] (-) TimerEvent: {}
+[6.689075] (-) TimerEvent: {}
+[6.791458] (-) TimerEvent: {}
+[6.892075] (-) TimerEvent: {}
+[6.993033] (-) TimerEvent: {}
+[7.096575] (-) TimerEvent: {}
+[7.201465] (-) TimerEvent: {}
+[7.203418] (csv) StdoutLine: {'line': b'[ 13%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_compact.cpp.o\x1b[0m\n'}
+[7.253259] (csv) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding CXX object include/internal/CMakeFiles/csv.dir/csv_stat.cpp.o\x1b[0m\n'}
+[7.291953] (csv) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_console.cpp.o\x1b[0m\n'}
+[7.303863] (-) TimerEvent: {}
+[7.404444] (-) TimerEvent: {}
+[7.504992] (-) TimerEvent: {}
+[7.609458] (-) TimerEvent: {}
+[7.706024] (csv) StdoutLine: {'line': b'[ 15%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_cumulative_base.cpp.o\x1b[0m\n'}
+[7.709606] (-) TimerEvent: {}
+[7.722498] (csv) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_event_listener.cpp.o\x1b[0m\n'}
+[7.811850] (-) TimerEvent: {}
+[7.912677] (-) TimerEvent: {}
+[8.017074] (-) TimerEvent: {}
+[8.117710] (-) TimerEvent: {}
+[8.218570] (-) TimerEvent: {}
+[8.320889] (-) TimerEvent: {}
+[8.423960] (-) TimerEvent: {}
+[8.526457] (-) TimerEvent: {}
+[8.627470] (-) TimerEvent: {}
+[8.720484] (csv) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_helpers.cpp.o\x1b[0m\n'}
+[8.730086] (-) TimerEvent: {}
+[8.830752] (-) TimerEvent: {}
+[8.931422] (-) TimerEvent: {}
+[9.033509] (-) TimerEvent: {}
+[9.117921] (csv) StdoutLine: {'line': b'[ 17%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_json.cpp.o\x1b[0m\n'}
+[9.133678] (-) TimerEvent: {}
+[9.236281] (-) TimerEvent: {}
+[9.244151] (csv) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_junit.cpp.o\x1b[0m\n'}
+[9.258346] (csv) StdoutLine: {'line': b'[ 18%] \x1b[32mBuilding CXX object include/internal/CMakeFiles/csv.dir/csv_utility.cpp.o\x1b[0m\n'}
+[9.336475] (-) TimerEvent: {}
+[9.440463] (-) TimerEvent: {}
+[9.541743] (-) TimerEvent: {}
+[9.646462] (-) TimerEvent: {}
+[9.747059] (-) TimerEvent: {}
+[9.847699] (-) TimerEvent: {}
+[9.947634] (csv) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_multi.cpp.o\x1b[0m\n'}
+[9.948060] (-) TimerEvent: {}
+[10.050290] (-) TimerEvent: {}
+[10.153026] (-) TimerEvent: {}
+[10.258489] (-) TimerEvent: {}
+[10.359121] (-) TimerEvent: {}
+[10.421052] (csv) StdoutLine: {'line': b'[ 19%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_registrars.cpp.o\x1b[0m\n'}
+[10.461466] (-) TimerEvent: {}
+[10.562347] (-) TimerEvent: {}
+[10.665729] (-) TimerEvent: {}
+[10.676251] (csv) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking CXX executable single_include_test\x1b[0m\n'}
+[10.769473] (-) TimerEvent: {}
+[10.870113] (-) TimerEvent: {}
+[10.970803] (-) TimerEvent: {}
+[11.076465] (-) TimerEvent: {}
+[11.146506] (csv) StdoutLine: {'line': b'[ 21%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_sonarqube.cpp.o\x1b[0m\n'}
+[11.176637] (-) TimerEvent: {}
+[11.277281] (-) TimerEvent: {}
+[11.282023] (csv) StdoutLine: {'line': b'[ 21%] Built target single_include_test\n'}
+[11.312886] (csv) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_streaming_base.cpp.o\x1b[0m\n'}
+[11.377475] (-) TimerEvent: {}
+[11.479064] (-) TimerEvent: {}
+[11.581879] (-) TimerEvent: {}
+[11.626491] (csv) StdoutLine: {'line': b'[ 22%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_tap.cpp.o\x1b[0m\n'}
+[11.682180] (-) TimerEvent: {}
+[11.786832] (-) TimerEvent: {}
+[11.887669] (-) TimerEvent: {}
+[11.989469] (-) TimerEvent: {}
+[12.092990] (-) TimerEvent: {}
+[12.193670] (-) TimerEvent: {}
+[12.213874] (csv) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_teamcity.cpp.o\x1b[0m\n'}
+[12.296590] (-) TimerEvent: {}
+[12.400111] (-) TimerEvent: {}
+[12.501667] (-) TimerEvent: {}
+[12.502607] (csv) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/reporters/catch_reporter_xml.cpp.o\x1b[0m\n'}
+[12.603469] (-) TimerEvent: {}
+[12.637450] (csv) StdoutLine: {'line': b'[ 24%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_capture.cpp.o\x1b[0m\n'}
+[12.671511] (csv) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_config.cpp.o\x1b[0m\n'}
+[12.706457] (-) TimerEvent: {}
+[12.807096] (-) TimerEvent: {}
+[12.907747] (-) TimerEvent: {}
+[13.009081] (-) TimerEvent: {}
+[13.111984] (-) TimerEvent: {}
+[13.212614] (-) TimerEvent: {}
+[13.314666] (-) TimerEvent: {}
+[13.416634] (-) TimerEvent: {}
+[13.520472] (-) TimerEvent: {}
+[13.563711] (csv) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_exception.cpp.o\x1b[0m\n'}
+[13.620666] (-) TimerEvent: {}
+[13.635516] (csv) StdoutLine: {'line': b'[ 26%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_generatortracker.cpp.o\x1b[0m\n'}
+[13.720975] (-) TimerEvent: {}
+[13.786570] (csv) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_registry_hub.cpp.o\x1b[0m\n'}
+[13.821137] (-) TimerEvent: {}
+[13.923954] (-) TimerEvent: {}
+[13.989953] (csv) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter.cpp.o\x1b[0m\n'}
+[14.025461] (-) TimerEvent: {}
+[14.126044] (-) TimerEvent: {}
+[14.227346] (-) TimerEvent: {}
+[14.330546] (-) TimerEvent: {}
+[14.350459] (csv) StdoutLine: {'line': b'[ 28%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_reporter_factory.cpp.o\x1b[0m\n'}
+[14.385891] (csv) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/interfaces/catch_interfaces_testcase.cpp.o\x1b[0m\n'}
+[14.390880] (csv) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_approx.cpp.o\x1b[0m\n'}
+[14.403456] (csv) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_assertion_result.cpp.o\x1b[0m\n'}
+[14.431900] (-) TimerEvent: {}
+[14.533733] (-) TimerEvent: {}
+[14.613124] (csv) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_config.cpp.o\x1b[0m\n'}
+[14.635484] (-) TimerEvent: {}
+[14.640873] (csv) StdoutLine: {'line': b'[ 32%] \x1b[32m\x1b[1mLinking CXX static library libcsv.a\x1b[0m\n'}
+[14.735668] (-) TimerEvent: {}
+[14.836734] (-) TimerEvent: {}
+[14.842261] (csv) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_get_random_seed.cpp.o\x1b[0m\n'}
+[14.940479] (-) TimerEvent: {}
+[15.041183] (-) TimerEvent: {}
+[15.061684] (csv) StdoutLine: {'line': b'[ 33%] Built target csv\n'}
+[15.118441] (csv) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_message.cpp.o\x1b[0m\n'}
+[15.141376] (-) TimerEvent: {}
+[15.242084] (-) TimerEvent: {}
+[15.287504] (csv) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object programs/CMakeFiles/csv_info.dir/csv_info.cpp.o\x1b[0m\n'}
+[15.302541] (csv) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object programs/CMakeFiles/csv_stats.dir/csv_stats.cpp.o\x1b[0m\n'}
+[15.342309] (-) TimerEvent: {}
+[15.445992] (-) TimerEvent: {}
+[15.546643] (-) TimerEvent: {}
+[15.634376] (csv) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object programs/CMakeFiles/csv_guess_bench.dir/csv_guess_bench.cpp.o\x1b[0m\n'}
+[15.646798] (-) TimerEvent: {}
+[15.747418] (-) TimerEvent: {}
+[15.848066] (-) TimerEvent: {}
+[15.952488] (-) TimerEvent: {}
+[16.053151] (-) TimerEvent: {}
+[16.153856] (-) TimerEvent: {}
+[16.254785] (-) TimerEvent: {}
+[16.305554] (csv) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object programs/CMakeFiles/csv_bench.dir/csv_bench.cpp.o\x1b[0m\n'}
+[16.358461] (-) TimerEvent: {}
+[16.393763] (csv) StdoutLine: {'line': b'[ 37%] \x1b[32mBuilding CXX object programs/CMakeFiles/csv_generator.dir/csv_generator.cpp.o\x1b[0m\n'}
+[16.458661] (-) TimerEvent: {}
+[16.517400] (csv) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_registry_hub.cpp.o\x1b[0m\n'}
+[16.560627] (-) TimerEvent: {}
+[16.666366] (-) TimerEvent: {}
+[16.766960] (-) TimerEvent: {}
+[16.868875] (-) TimerEvent: {}
+[16.972017] (-) TimerEvent: {}
+[17.073470] (-) TimerEvent: {}
+[17.177737] (-) TimerEvent: {}
+[17.278369] (-) TimerEvent: {}
+[17.378985] (-) TimerEvent: {}
+[17.460404] (csv) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object programs/CMakeFiles/data_type_bench.dir/data_type_bench.cpp.o\x1b[0m\n'}
+[17.479154] (-) TimerEvent: {}
+[17.581941] (-) TimerEvent: {}
+[17.660477] (csv) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o\x1b[0m\n'}
+[17.684454] (-) TimerEvent: {}
+[17.785031] (-) TimerEvent: {}
+[17.885621] (-) TimerEvent: {}
+[17.986304] (-) TimerEvent: {}
+[18.089631] (-) TimerEvent: {}
+[18.190268] (-) TimerEvent: {}
+[18.290959] (-) TimerEvent: {}
+[18.391753] (-) TimerEvent: {}
+[18.493704] (-) TimerEvent: {}
+[18.537174] (csv) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tag_alias_autoregistrar.cpp.o\x1b[0m\n'}
+[18.594452] (-) TimerEvent: {}
+[18.698685] (-) TimerEvent: {}
+[18.799287] (-) TimerEvent: {}
+[18.903809] (-) TimerEvent: {}
+[19.014281] (-) TimerEvent: {}
+[19.121273] (-) TimerEvent: {}
+[19.246254] (-) TimerEvent: {}
+[19.346970] (-) TimerEvent: {}
+[19.417485] (csv) StdoutLine: {'line': b'[ 40%] \x1b[32m\x1b[1mLinking CXX executable csv_info\x1b[0m\n'}
+[19.447157] (-) TimerEvent: {}
+[19.552152] (-) TimerEvent: {}
+[19.655472] (-) TimerEvent: {}
+[19.680520] (csv) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_case_info.cpp.o\x1b[0m\n'}
+[19.746830] (csv) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX executable csv_stats\x1b[0m\n'}
+[19.755648] (-) TimerEvent: {}
+[19.857921] (-) TimerEvent: {}
+[19.949535] (csv) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX executable csv_bench\x1b[0m\n'}
+[19.959885] (-) TimerEvent: {}
+[20.063668] (-) TimerEvent: {}
+[20.087886] (csv) StdoutLine: {'line': b'[ 42%] Built target csv_info\n'}
+[20.119527] (csv) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_test_spec.cpp.o\x1b[0m\n'}
+[20.150495] (csv) StdoutLine: {'line': b'[ 44%] \x1b[32m\x1b[1mLinking CXX executable csv_guess_bench\x1b[0m\n'}
+[20.163826] (-) TimerEvent: {}
+[20.267038] (-) TimerEvent: {}
+[20.372482] (-) TimerEvent: {}
+[20.433737] (csv) StdoutLine: {'line': b'[ 44%] Built target csv_stats\n'}
+[20.456428] (csv) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_timer.cpp.o\x1b[0m\n'}
+[20.472635] (-) TimerEvent: {}
+[20.576480] (-) TimerEvent: {}
+[20.651479] (csv) StdoutLine: {'line': b'[ 44%] Built target csv_guess_bench\n'}
+[20.652131] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/catch_timer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kdouble Catch::Timer::getElapsedSeconds() const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[20.652446] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/catch_timer.cpp:33:38:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 may change value [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion\x07-Wconversion\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[20.652696] (csv) StderrLine: {'line': b'   33 |         return \x1b[01;35m\x1b[KgetElapsedMicroseconds()\x1b[m\x1b[K/1000000.0;\n'}
+[20.652910] (csv) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~^~\x1b[m\x1b[K\n'}
+[20.677645] (csv) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_tostring.cpp.o\x1b[0m\n'}
+[20.678101] (-) TimerEvent: {}
+[20.716220] (csv) StdoutLine: {'line': b'[ 45%] Built target csv_bench\n'}
+[20.744607] (csv) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_totals.cpp.o\x1b[0m\n'}
+[20.756528] (csv) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_translate_exception.cpp.o\x1b[0m\n'}
+[20.780451] (-) TimerEvent: {}
+[20.864625] (csv) StdoutLine: {'line': b'[ 47%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_version.cpp.o\x1b[0m\n'}
+[20.880634] (-) TimerEvent: {}
+[20.984471] (-) TimerEvent: {}
+[21.085127] (-) TimerEvent: {}
+[21.185758] (-) TimerEvent: {}
+[21.288679] (-) TimerEvent: {}
+[21.359207] (csv) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX executable csv_generator\x1b[0m\n'}
+[21.391485] (-) TimerEvent: {}
+[21.492176] (-) TimerEvent: {}
+[21.593389] (-) TimerEvent: {}
+[21.694772] (-) TimerEvent: {}
+[21.727455] (csv) StdoutLine: {'line': b'[ 48%] Built target csv_generator\n'}
+[21.734498] (csv) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_assertion_handler.cpp.o\x1b[0m\n'}
+[21.756816] (csv) StdoutLine: {'line': b'[ 49%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_case_insensitive_comparisons.cpp.o\x1b[0m\n'}
+[21.794932] (-) TimerEvent: {}
+[21.819108] (csv) StdoutLine: {'line': b'[ 50%] \x1b[32m\x1b[1mLinking CXX executable data_type_bench\x1b[0m\n'}
+[21.897480] (-) TimerEvent: {}
+[21.998091] (-) TimerEvent: {}
+[21.999943] (csv) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_clara.cpp.o\x1b[0m\n'}
+[22.101456] (-) TimerEvent: {}
+[22.202047] (-) TimerEvent: {}
+[22.209258] (csv) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_commandline.cpp.o\x1b[0m\n'}
+[22.284268] (csv) StdoutLine: {'line': b'[ 52%] Built target data_type_bench\n'}
+[22.304561] (-) TimerEvent: {}
+[22.319572] (csv) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_console_colour.cpp.o\x1b[0m\n'}
+[22.407457] (-) TimerEvent: {}
+[22.508076] (-) TimerEvent: {}
+[22.596928] (csv) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_context.cpp.o\x1b[0m\n'}
+[22.610468] (-) TimerEvent: {}
+[22.711105] (-) TimerEvent: {}
+[22.730405] (csv) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debug_console.cpp.o\x1b[0m\n'}
+[22.813469] (-) TimerEvent: {}
+[22.914101] (-) TimerEvent: {}
+[23.016252] (-) TimerEvent: {}
+[23.118145] (-) TimerEvent: {}
+[23.220255] (-) TimerEvent: {}
+[23.221495] (csv) StdoutLine: {'line': b'[ 54%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_debugger.cpp.o\x1b[0m\n'}
+[23.289316] (csv) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_decomposer.cpp.o\x1b[0m\n'}
+[23.304928] (csv) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enforce.cpp.o\x1b[0m\n'}
+[23.320590] (-) TimerEvent: {}
+[23.330750] (csv) StdoutLine: {'line': b'[ 56%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_enum_values_registry.cpp.o\x1b[0m\n'}
+[23.420746] (-) TimerEvent: {}
+[23.521397] (-) TimerEvent: {}
+[23.622063] (-) TimerEvent: {}
+[23.689612] (csv) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_errno_guard.cpp.o\x1b[0m\n'}
+[23.723470] (-) TimerEvent: {}
+[23.790061] (csv) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_exception_translator_registry.cpp.o\x1b[0m\n'}
+[23.823640] (-) TimerEvent: {}
+[23.925695] (-) TimerEvent: {}
+[24.030636] (-) TimerEvent: {}
+[24.131255] (-) TimerEvent: {}
+[24.148527] (csv) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_fatal_condition_handler.cpp.o\x1b[0m\n'}
+[24.231441] (-) TimerEvent: {}
+[24.334098] (-) TimerEvent: {}
+[24.402548] (csv) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_floating_point_helpers.cpp.o\x1b[0m\n'}
+[24.434271] (-) TimerEvent: {}
+[24.534970] (-) TimerEvent: {}
+[24.635643] (-) TimerEvent: {}
+[24.738483] (-) TimerEvent: {}
+[24.840506] (-) TimerEvent: {}
+[24.886489] (csv) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_getenv.cpp.o\x1b[0m\n'}
+[24.911668] (csv) StdoutLine: {'line': b'[ 60%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_istream.cpp.o\x1b[0m\n'}
+[24.941197] (-) TimerEvent: {}
+[25.015942] (csv) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_jsonwriter.cpp.o\x1b[0m\n'}
+[25.041370] (-) TimerEvent: {}
+[25.115089] (csv) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_lazy_expr.cpp.o\x1b[0m\n'}
+[25.143480] (-) TimerEvent: {}
+[25.213845] (csv) StdoutLine: {'line': b'[ 62%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_leak_detector.cpp.o\x1b[0m\n'}
+[25.226169] (csv) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_list.cpp.o\x1b[0m\n'}
+[25.248460] (-) TimerEvent: {}
+[25.349089] (-) TimerEvent: {}
+[25.450000] (-) TimerEvent: {}
+[25.556534] (-) TimerEvent: {}
+[25.657199] (-) TimerEvent: {}
+[25.757846] (-) TimerEvent: {}
+[25.861044] (-) TimerEvent: {}
+[25.962084] (-) TimerEvent: {}
+[26.065499] (-) TimerEvent: {}
+[26.080114] (csv) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_message_info.cpp.o\x1b[0m\n'}
+[26.109466] (csv) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_output_redirect.cpp.o\x1b[0m\n'}
+[26.165495] (csv) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_parse_numbers.cpp.o\x1b[0m\n'}
+[26.169903] (-) TimerEvent: {}
+[26.256259] (csv) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_polyfills.cpp.o\x1b[0m\n'}
+[26.270093] (-) TimerEvent: {}
+[26.374420] (-) TimerEvent: {}
+[26.476483] (-) TimerEvent: {}
+[26.577126] (-) TimerEvent: {}
+[26.678007] (-) TimerEvent: {}
+[26.780926] (-) TimerEvent: {}
+[26.870626] (csv) StdoutLine: {'line': b'[ 66%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_number_generator.cpp.o\x1b[0m\n'}
+[26.872539] (csv) StdoutLine: {'line': b'[ 67%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_random_seed_generation.cpp.o\x1b[0m\n'}
+[26.877539] (csv) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_registry.cpp.o\x1b[0m\n'}
+[26.882634] (-) TimerEvent: {}
+[26.931259] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[KCatch::SimplePcg32::result_type Catch::SimplePcg32::operator()()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[26.931780] (csv) StderrLine: {'line': b'\x1b[01m\x1b[K/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/internal/catch_random_number_generator.cpp:55:62:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kuint64_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kuint32_t\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99} may change value [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wconversion\x07-Wconversion\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[26.932052] (csv) StderrLine: {'line': b'   55 |         const auto output = rotate_right(xorshifted, \x1b[01;35m\x1b[Km_state >> 59u\x1b[m\x1b[K);\n'}
+[26.932263] (csv) StderrLine: {'line': b'      |                                                      \x1b[01;35m\x1b[K~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[26.983964] (csv) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reporter_spec_parser.cpp.o\x1b[0m\n'}
+[26.984426] (-) TimerEvent: {}
+[26.986746] (csv) StdoutLine: {'line': b'[ 69%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_result_type.cpp.o\x1b[0m\n'}
+[27.077496] (csv) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_reusable_string_stream.cpp.o\x1b[0m\n'}
+[27.084802] (-) TimerEvent: {}
+[27.156320] (csv) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_run_context.cpp.o\x1b[0m\n'}
+[27.180701] (csv) StdoutLine: {'line': b'[ 71%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_section.cpp.o\x1b[0m\n'}
+[27.184813] (-) TimerEvent: {}
+[27.285319] (-) TimerEvent: {}
+[27.385909] (-) TimerEvent: {}
+[27.487409] (-) TimerEvent: {}
+[27.591691] (-) TimerEvent: {}
+[27.692285] (-) TimerEvent: {}
+[27.793081] (-) TimerEvent: {}
+[27.897472] (-) TimerEvent: {}
+[27.960214] (csv) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_singletons.cpp.o\x1b[0m\n'}
+[27.997632] (-) TimerEvent: {}
+[28.101275] (-) TimerEvent: {}
+[28.203462] (-) TimerEvent: {}
+[28.258092] (csv) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_source_line_info.cpp.o\x1b[0m\n'}
+[28.309458] (-) TimerEvent: {}
+[28.410054] (-) TimerEvent: {}
+[28.411565] (csv) StdoutLine: {'line': b'[ 73%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_startup_exception_registry.cpp.o\x1b[0m\n'}
+[28.510214] (-) TimerEvent: {}
+[28.612877] (-) TimerEvent: {}
+[28.719899] (-) TimerEvent: {}
+[28.733182] (csv) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stdstreams.cpp.o\x1b[0m\n'}
+[28.820933] (-) TimerEvent: {}
+[28.921558] (-) TimerEvent: {}
+[29.023469] (-) TimerEvent: {}
+[29.127490] (-) TimerEvent: {}
+[29.153004] (csv) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_string_manip.cpp.o\x1b[0m\n'}
+[29.159603] (csv) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_stringref.cpp.o\x1b[0m\n'}
+[29.234947] (-) TimerEvent: {}
+[29.339362] (-) TimerEvent: {}
+[29.440339] (-) TimerEvent: {}
+[29.536536] (csv) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_tag_alias_registry.cpp.o\x1b[0m\n'}
+[29.540418] (-) TimerEvent: {}
+[29.643354] (-) TimerEvent: {}
+[29.720641] (csv) StdoutLine: {'line': b'[ 76%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_info_hasher.cpp.o\x1b[0m\n'}
+[29.743462] (-) TimerEvent: {}
+[29.844063] (-) TimerEvent: {}
+[29.850851] (csv) StdoutLine: {'line': b'[ 77%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_registry_impl.cpp.o\x1b[0m\n'}
+[29.944759] (-) TimerEvent: {}
+[30.054932] (-) TimerEvent: {}
+[30.157065] (-) TimerEvent: {}
+[30.199469] (csv) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_case_tracker.cpp.o\x1b[0m\n'}
+[30.260472] (-) TimerEvent: {}
+[30.361999] (-) TimerEvent: {}
+[30.436550] (csv) StdoutLine: {'line': b'[ 78%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_failure_exception.cpp.o\x1b[0m\n'}
+[30.464457] (-) TimerEvent: {}
+[30.565062] (-) TimerEvent: {}
+[30.625160] (csv) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_registry.cpp.o\x1b[0m\n'}
+[30.631455] (csv) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_test_spec_parser.cpp.o\x1b[0m\n'}
+[30.665217] (-) TimerEvent: {}
+[30.765821] (-) TimerEvent: {}
+[30.868459] (-) TimerEvent: {}
+[30.896367] (csv) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_textflow.cpp.o\x1b[0m\n'}
+[30.968626] (-) TimerEvent: {}
+[30.971512] (csv) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_uncaught_exceptions.cpp.o\x1b[0m\n'}
+[31.068787] (-) TimerEvent: {}
+[31.122485] (csv) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_wildcard_pattern.cpp.o\x1b[0m\n'}
+[31.168962] (-) TimerEvent: {}
+[31.269824] (-) TimerEvent: {}
+[31.333738] (csv) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/internal/catch_xmlwriter.cpp.o\x1b[0m\n'}
+[31.370788] (-) TimerEvent: {}
+[31.474487] (-) TimerEvent: {}
+[31.480186] (csv) StdoutLine: {'line': b'[ 83%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers.cpp.o\x1b[0m\n'}
+[31.574654] (-) TimerEvent: {}
+[31.675264] (-) TimerEvent: {}
+[31.778768] (-) TimerEvent: {}
+[31.880475] (-) TimerEvent: {}
+[31.985295] (-) TimerEvent: {}
+[32.087939] (-) TimerEvent: {}
+[32.189860] (-) TimerEvent: {}
+[32.237520] (csv) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_container_properties.cpp.o\x1b[0m\n'}
+[32.290042] (-) TimerEvent: {}
+[32.388130] (csv) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_exception.cpp.o\x1b[0m\n'}
+[32.390050] (-) TimerEvent: {}
+[32.494851] (-) TimerEvent: {}
+[32.563293] (csv) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_floating_point.cpp.o\x1b[0m\n'}
+[32.595019] (-) TimerEvent: {}
+[32.699469] (-) TimerEvent: {}
+[32.800135] (-) TimerEvent: {}
+[32.814757] (csv) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_predicate.cpp.o\x1b[0m\n'}
+[32.900999] (-) TimerEvent: {}
+[33.003876] (-) TimerEvent: {}
+[33.057721] (csv) StdoutLine: {'line': b'[ 86%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_quantifiers.cpp.o\x1b[0m\n'}
+[33.107381] (-) TimerEvent: {}
+[33.155215] (csv) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o\x1b[0m\n'}
+[33.207525] (-) TimerEvent: {}
+[33.308144] (-) TimerEvent: {}
+[33.413696] (-) TimerEvent: {}
+[33.514469] (-) TimerEvent: {}
+[33.615072] (-) TimerEvent: {}
+[33.717205] (-) TimerEvent: {}
+[33.819974] (-) TimerEvent: {}
+[33.883398] (csv) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/internal/catch_matchers_impl.cpp.o\x1b[0m\n'}
+[33.894808] (csv) StdoutLine: {'line': b'[ 88%] \x1b[32mBuilding CXX object _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_templated.cpp.o\x1b[0m\n'}
+[33.921453] (-) TimerEvent: {}
+[34.022034] (-) TimerEvent: {}
+[34.123314] (-) TimerEvent: {}
+[34.227954] (-) TimerEvent: {}
+[34.328754] (-) TimerEvent: {}
+[34.429931] (-) TimerEvent: {}
+[34.530943] (-) TimerEvent: {}
+[34.631664] (-) TimerEvent: {}
+[34.732968] (-) TimerEvent: {}
+[34.836223] (-) TimerEvent: {}
+[34.937971] (-) TimerEvent: {}
+[35.039914] (-) TimerEvent: {}
+[35.141216] (-) TimerEvent: {}
+[35.241859] (-) TimerEvent: {}
+[35.342493] (-) TimerEvent: {}
+[35.454658] (-) TimerEvent: {}
+[35.555306] (-) TimerEvent: {}
+[35.655837] (-) TimerEvent: {}
+[35.756364] (-) TimerEvent: {}
+[35.858123] (-) TimerEvent: {}
+[35.958711] (-) TimerEvent: {}
+[36.059228] (-) TimerEvent: {}
+[36.159725] (-) TimerEvent: {}
+[36.260273] (-) TimerEvent: {}
+[36.360812] (-) TimerEvent: {}
+[36.401962] (csv) StderrLine: {'line': b'gmake[2]: *** [_deps/catch2-build/src/CMakeFiles/Catch2.dir/build.make:1518: _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/matchers/catch_matchers_string.cpp.o] Interrupt\n'}
+[36.402608] (csv) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:513: _deps/catch2-build/src/CMakeFiles/Catch2.dir/all] Interrupt\n'}
+[36.403239] (csv) StderrLine: {'line': b'gmake: *** [Makefile:101: all] Interrupt\n'}
+[36.419208] (csv) JobEnded: {'identifier': 'csv', 'rc': 'SIGINT'}
+[36.430180] (-) EventReactorShutdown: {}

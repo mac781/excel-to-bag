@@ -1,0 +1,26 @@
+[0.022s] Invoking command in '/home/user/excel-to-bag/build/csv': /usr/bin/cmake /home/user/excel-to-bag/src/csv-parser -DCMAKE_INSTALL_PREFIX=/home/user/excel-to-bag/install/csv
+[0.238s] -- The C compiler identification is GNU 11.4.0
+[0.404s] -- The CXX compiler identification is GNU 11.4.0
+[0.428s] -- Detecting C compiler ABI info
+[0.568s] -- Detecting C compiler ABI info - done
+[0.586s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.588s] -- Detecting C compile features
+[0.589s] -- Detecting C compile features - done
+[0.596s] -- Detecting CXX compiler ABI info
+[0.755s] -- Detecting CXX compiler ABI info - done
+[0.784s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.785s] -- Detecting CXX compile features
+[0.786s] -- Detecting CXX compile features - done
+[0.787s] [0mBuilding CSV library using C++17[0m
+[1.119s] -- Performing Test haveCharconv
+[1.365s] -- Performing Test haveCharconv - Success
+[1.719s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.731s] [33mCMake Warning at CMakeLists.txt:104 (message):
+[1.731s]   Doxygen not found, skipping target 'doxygen'.
+[1.731s] 
+[1.732s] [0m
+[13.037s] -- Performing Test HAVE_FLAG__ffile_prefix_map__home_user_excel_to_bag_build_csv__deps_catch2_src__
+[13.186s] -- Performing Test HAVE_FLAG__ffile_prefix_map__home_user_excel_to_bag_build_csv__deps_catch2_src__ - Success
+[13.189s] -- Configuring done
+[13.268s] -- Generating done
+[13.290s] -- Build files have been written to: /home/user/excel-to-bag/build/csv

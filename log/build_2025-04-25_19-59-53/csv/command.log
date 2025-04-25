@@ -1,0 +1,2 @@
+Invoking command in '/home/user/excel-to-bag/build/csv': /usr/bin/cmake --build /home/user/excel-to-bag/build/csv -- -j8 -l8
+Invoked command in '/home/user/excel-to-bag/build/csv' returned '0': /usr/bin/cmake --build /home/user/excel-to-bag/build/csv -- -j8 -l8

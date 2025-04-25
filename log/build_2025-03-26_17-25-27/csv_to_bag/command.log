@@ -1,4 +1,0 @@
-Invoking command in '/home/user/Eurobot-excel/build/csv_to_bag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/Eurobot-excel/build/csv_to_bag -- -j8 -l8
-Invoked command in '/home/user/Eurobot-excel/build/csv_to_bag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/user/Eurobot-excel/build/csv_to_bag -- -j8 -l8
-Invoking command in '/home/user/Eurobot-excel/build/csv_to_bag': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/Eurobot-excel/build/csv_to_bag
-Invoked command in '/home/user/Eurobot-excel/build/csv_to_bag' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/user/Eurobot-excel/build/csv_to_bag

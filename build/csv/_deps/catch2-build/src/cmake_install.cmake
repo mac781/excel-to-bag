@@ -1,8 +1,8 @@
-# Install script for directory: /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src
+# Install script for directory: /home/user/excel-to-bag/build/csv/_deps/catch2-src/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/user/Eurobot-excel/install/csv")
+  set(CMAKE_INSTALL_PREFIX "/home/user/excel-to-bag/install/csv")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 

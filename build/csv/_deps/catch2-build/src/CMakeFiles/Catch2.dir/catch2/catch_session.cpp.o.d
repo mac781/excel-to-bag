@@ -1,9 +1,9 @@
 _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o: \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/catch_session.cpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/catch_session.cpp \
  /usr/include/stdc-predef.h \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_session.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_commandline.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_clara.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_session.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_commandline.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_clara.hpp \
  /usr/include/c++/11/optional /usr/include/c++/11/utility \
  /usr/include/x86_64-linux-gnu/c++/11/bits/c++config.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/os_defines.h \
@@ -33,7 +33,7 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o: \
  /usr/include/c++/11/bits/stl_iterator_base_funcs.h \
  /usr/include/c++/11/bits/concept_check.h \
  /usr/include/c++/11/debug/assertions.h \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_stringref.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_stringref.hpp \
  /usr/include/c++/11/cstddef /usr/include/c++/11/string \
  /usr/include/c++/11/bits/stringfwd.h \
  /usr/include/c++/11/bits/memoryfwd.h \
@@ -140,9 +140,9 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o: \
  /usr/include/c++/11/bits/basic_string.tcc /usr/include/c++/11/cassert \
  /usr/include/assert.h /usr/include/c++/11/cstring /usr/include/string.h \
  /usr/include/strings.h \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_move_and_forward.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_noncopyable.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_void_type.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_move_and_forward.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_noncopyable.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_void_type.hpp \
  /usr/include/c++/11/memory /usr/include/c++/11/bits/stl_uninitialized.h \
  /usr/include/c++/11/bits/stl_tempbuf.h \
  /usr/include/c++/11/bits/stl_raw_storage_iter.h \
@@ -183,64 +183,64 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o: \
  /usr/include/c++/11/bits/stl_vector.h \
  /usr/include/c++/11/bits/stl_bvector.h \
  /usr/include/c++/11/bits/vector.tcc \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_config.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_test_spec.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_ptr.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_wildcard_pattern.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_case_sensitive.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_config.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_config.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_test_spec.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_ptr.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_wildcard_pattern.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_case_sensitive.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_config.hpp \
  /usr/include/c++/11/chrono /usr/include/c++/11/ratio \
  /usr/include/c++/11/limits /usr/include/c++/11/ctime \
  /usr/include/c++/11/bits/parse_numbers.h \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_optional.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_random_seed_generation.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_reporter_spec_parser.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_optional.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_random_seed_generation.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_reporter_spec_parser.hpp \
  /usr/include/c++/11/map /usr/include/c++/11/bits/stl_tree.h \
  /usr/include/c++/11/bits/node_handle.h \
  /usr/include/c++/11/bits/stl_map.h \
  /usr/include/c++/11/bits/stl_multimap.h \
  /usr/include/c++/11/bits/erase_if.h \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_wchar.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-build/generated-includes/catch2/catch_user_config.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_console_colour.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_enforce.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_source_line_info.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_compiler_capabilities.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_platform.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_reusable_string_stream.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_list.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_wchar.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-build/generated-includes/catch2/catch_user_config.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_console_colour.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_enforce.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_source_line_info.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_compiler_capabilities.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_platform.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_reusable_string_stream.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_list.hpp \
  /usr/include/c++/11/set /usr/include/c++/11/bits/stl_set.h \
  /usr/include/c++/11/bits/stl_multiset.h \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_context.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_run_context.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_capture.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_result_type.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_benchmark_stats_fwd.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_clock.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_registry.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_static_analysis_support.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_test_invoker.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_name.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_counter.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_preprocessor_remove_parens.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_run_info.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_fatal_condition_handler.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_test_case_info.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_message.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_prefix_messages.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_stream_end_stop.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_message_info.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_tostring.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_enum_values_registry.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_registry_hub.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_totals.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_case_tracker.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_assertion_info.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_assertion_result.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_lazy_expr.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_version.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_startup_exception_registry.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_sharding.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_context.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_run_context.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_capture.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_result_type.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_benchmark_stats_fwd.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_clock.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_registry.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_static_analysis_support.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_test_invoker.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_unique_name.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_counter.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_preprocessor_remove_parens.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_run_info.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_fatal_condition_handler.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_test_case_info.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_message.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_config_prefix_messages.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_stream_end_stop.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_message_info.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_tostring.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_enum_values_registry.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_registry_hub.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_totals.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_case_tracker.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_assertion_info.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_assertion_result.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_lazy_expr.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_version.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_startup_exception_registry.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_sharding.hpp \
  /usr/include/c++/11/cmath /usr/include/math.h \
  /usr/include/x86_64-linux-gnu/bits/math-vector.h \
  /usr/include/x86_64-linux-gnu/bits/libm-simd-decl-stubs.h \
@@ -272,22 +272,22 @@ _deps/catch2-build/src/CMakeFiles/Catch2.dir/catch2/catch_session.cpp.o: \
  /usr/include/c++/11/unordered_map /usr/include/c++/11/bits/hashtable.h \
  /usr/include/c++/11/bits/hashtable_policy.h \
  /usr/include/c++/11/bits/unordered_map.h \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_case_registry_impl.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_testcase.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_textflow.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_console_width.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_windows_h_proxy.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/reporters/catch_reporter_multi.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_reporter.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_section_info.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_benchmark_stats.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_estimate.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_outlier_classification.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_reporter_registry.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_case_insensitive_comparisons.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_reporter_factory.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_stdstreams.hpp \
- /home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_istream.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_test_case_registry_impl.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_testcase.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_textflow.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_console_width.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_windows_h_proxy.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/reporters/catch_reporter_multi.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_reporter.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/catch_section_info.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/benchmark/detail/catch_benchmark_stats.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_estimate.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/benchmark/catch_outlier_classification.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_reporter_registry.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_case_insensitive_comparisons.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/interfaces/catch_interfaces_reporter_factory.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_stdstreams.hpp \
+ /home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/../catch2/internal/catch_istream.hpp \
  /usr/include/c++/11/iomanip /usr/include/c++/11/locale \
  /usr/include/c++/11/bits/locale_facets_nonio.h \
  /usr/include/x86_64-linux-gnu/c++/11/bits/time_members.h \

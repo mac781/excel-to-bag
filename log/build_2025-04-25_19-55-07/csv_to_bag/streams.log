@@ -1,0 +1,21 @@
+[0.029s] Invoking command in '/home/user/excel-to-bag/build/csv_to_bag': /usr/bin/cmake /home/user/excel-to-bag/src/csv_to_bag -DCMAKE_INSTALL_PREFIX=/home/user/excel-to-bag/install/csv_to_bag
+[0.089s] [31mCMake Error at CMakeLists.txt:9 (find_package):
+[0.089s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
+[0.089s]   has asked CMake to find a package configuration file provided by
+[0.090s]   "ament_cmake", but CMake did not find one.
+[0.090s] 
+[0.090s]   Could not find a package configuration file provided by "ament_cmake" with
+[0.090s]   any of the following names:
+[0.090s] 
+[0.090s]     ament_cmakeConfig.cmake
+[0.091s]     ament_cmake-config.cmake
+[0.091s] 
+[0.091s]   Add the installation prefix of "ament_cmake" to CMAKE_PREFIX_PATH or set
+[0.091s]   "ament_cmake_DIR" to a directory containing one of the above files.  If
+[0.091s]   "ament_cmake" provides a separate development package or SDK, be sure it
+[0.091s]   has been installed.
+[0.092s] 
+[0.092s] [0m
+[0.092s] -- Configuring incomplete, errors occurred!
+[0.092s] See also "/home/user/excel-to-bag/build/csv_to_bag/CMakeFiles/CMakeOutput.log".
+[0.094s] Invoked command in '/home/user/excel-to-bag/build/csv_to_bag' returned '1': /usr/bin/cmake /home/user/excel-to-bag/src/csv_to_bag -DCMAKE_INSTALL_PREFIX=/home/user/excel-to-bag/install/csv_to_bag

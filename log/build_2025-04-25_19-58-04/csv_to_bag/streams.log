@@ -1,0 +1,52 @@
+[0.035s] Invoking command in '/home/user/excel-to-bag/build/csv_to_bag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/excel-to-bag/src/csv_to_bag -DCMAKE_INSTALL_PREFIX=/home/user/excel-to-bag/install/csv_to_bag
+[0.077s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.559s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.799s] -- Found rclcpp: 16.0.11 (/opt/ros/humble/share/rclcpp/cmake)
+[0.933s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.952s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.976s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.016s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.060s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.185s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.193s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.425s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.496s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.626s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.665s] -- Looking for pthread.h
+[1.831s] -- Looking for pthread.h - found
+[1.833s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.978s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.980s] -- Found Threads: TRUE  
+[2.122s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.159s] -- Found nav_msgs: 4.2.4 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.202s] -- Found rosbag2_cpp: 0.15.13 (/opt/ros/humble/share/rosbag2_cpp/cmake)
+[2.324s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.511s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.511s] -- Configured cppcheck include dirs: 
+[2.511s] -- Configured cppcheck exclude dirs and/or files: 
+[2.514s] -- Added test 'lint_cmake' to check CMake code style
+[2.518s] -- Added test 'uncrustify' to check C / C++ code style
+[2.518s] -- Configured uncrustify additional arguments: 
+[2.520s] -- Added test 'xmllint' to check XML markup files
+[2.524s] -- Configuring done
+[2.546s] -- Generating done
+[2.555s] -- Build files have been written to: /home/user/excel-to-bag/build/csv_to_bag
+[2.567s] Invoked command in '/home/user/excel-to-bag/build/csv_to_bag' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/user/excel-to-bag/src/csv_to_bag -DCMAKE_INSTALL_PREFIX=/home/user/excel-to-bag/install/csv_to_bag
+[2.571s] Invoking command in '/home/user/excel-to-bag/build/csv_to_bag': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/excel-to-bag/build/csv_to_bag -- -j8 -l8
+[2.674s] [ 50%] [32mBuilding CXX object CMakeFiles/csv_to_bag.dir/src/csv_to_bag.cpp.o[0m
+[9.331s] [01m[K/home/user/excel-to-bag/src/csv_to_bag/src/csv_to_bag.cpp:[m[K In member function ‘[01m[Kvoid CsvToBag::read_and_publish()[m[K’:
+[9.331s] [01m[K/home/user/excel-to-bag/src/csv_to_bag/src/csv_to_bag.cpp:83:38:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[K>[m[K’ token
+[9.331s]    83 |                     for(int j=100, j [01;31m[K>[m[K 100-interval; j--){
+[9.331s]       |                                      [01;31m[K^[m[K
+[9.331s] [01m[K/home/user/excel-to-bag/src/csv_to_bag/src/csv_to_bag.cpp:83:38:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[9.338s] [01m[K/home/user/excel-to-bag/src/csv_to_bag/src/csv_to_bag.cpp:130:27:[m[K [01;35m[Kwarning: [m[K‘[01m[Kvoid rosbag2_cpp::Writer::write(const rclcpp::SerializedMessage&, const string&, const string&, const rclcpp::Time&)[m[K’ is deprecated: Use write(std::shared_ptr<rclcpp::SerializedMessage> message, const std::string & topic_name, const std::string & type_name, const rclcpp::Time & time) instead. [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wdeprecated-declarations-Wdeprecated-declarations]8;;[m[K]
+[9.338s]   130 |             [01;35m[Kwriter_->write(serialized_msg, "/rival/pose", "nav_msgs/msg/Odometry", ros_time)[m[K;
+[9.338s]       |             [01;35m[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[9.338s] In file included from [01m[K/home/user/excel-to-bag/src/csv_to_bag/src/csv_to_bag.cpp:3[m[K:
+[9.338s] [01m[K/opt/ros/humble/include/rosbag2_cpp/rosbag2_cpp/writer.hpp:156:8:[m[K [01;36m[Knote: [m[Kdeclared here
+[9.338s]   156 |   void [01;36m[Kwrite[m[K(
+[9.338s]       |        [01;36m[K^~~~~[m[K
+[12.360s] gmake[2]: *** [CMakeFiles/csv_to_bag.dir/build.make:76: CMakeFiles/csv_to_bag.dir/src/csv_to_bag.cpp.o] Error 1
+[12.361s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/csv_to_bag.dir/all] Error 2
+[12.361s] gmake: *** [Makefile:146: all] Error 2
+[12.368s] Invoked command in '/home/user/excel-to-bag/build/csv_to_bag' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/user/excel-to-bag/build/csv_to_bag -- -j8 -l8

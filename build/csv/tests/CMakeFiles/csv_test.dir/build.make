@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/user/Eurobot-excel/src/csv-parser
+CMAKE_SOURCE_DIR = /home/user/excel-to-bag/src/csv-parser
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/user/Eurobot-excel/build/csv
+CMAKE_BINARY_DIR = /home/user/excel-to-bag/build/csv
 
 # Include any dependencies generated for this target.
 include tests/CMakeFiles/csv_test.dir/depend.make
@@ -70,214 +70,214 @@ include tests/CMakeFiles/csv_test.dir/progress.make
 include tests/CMakeFiles/csv_test.dir/flags.make
 
 tests/CMakeFiles/csv_test.dir/main.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/main.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/main.cpp
+tests/CMakeFiles/csv_test.dir/main.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/main.cpp
 tests/CMakeFiles/csv_test.dir/main.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/csv_test.dir/main.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/main.cpp.o -MF CMakeFiles/csv_test.dir/main.cpp.o.d -o CMakeFiles/csv_test.dir/main.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object tests/CMakeFiles/csv_test.dir/main.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/main.cpp.o -MF CMakeFiles/csv_test.dir/main.cpp.o.d -o CMakeFiles/csv_test.dir/main.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/main.cpp
 
 tests/CMakeFiles/csv_test.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/main.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/main.cpp > CMakeFiles/csv_test.dir/main.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/main.cpp > CMakeFiles/csv_test.dir/main.cpp.i
 
 tests/CMakeFiles/csv_test.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/main.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/main.cpp -o CMakeFiles/csv_test.dir/main.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/main.cpp -o CMakeFiles/csv_test.dir/main.cpp.s
 
 tests/CMakeFiles/csv_test.dir/test_csv_field.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/test_csv_field.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_field.cpp
+tests/CMakeFiles/csv_test.dir/test_csv_field.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/test_csv_field.cpp
 tests/CMakeFiles/csv_test.dir/test_csv_field.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/csv_test.dir/test_csv_field.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_csv_field.cpp.o -MF CMakeFiles/csv_test.dir/test_csv_field.cpp.o.d -o CMakeFiles/csv_test.dir/test_csv_field.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_field.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object tests/CMakeFiles/csv_test.dir/test_csv_field.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_csv_field.cpp.o -MF CMakeFiles/csv_test.dir/test_csv_field.cpp.o.d -o CMakeFiles/csv_test.dir/test_csv_field.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/test_csv_field.cpp
 
 tests/CMakeFiles/csv_test.dir/test_csv_field.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/test_csv_field.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_field.cpp > CMakeFiles/csv_test.dir/test_csv_field.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/test_csv_field.cpp > CMakeFiles/csv_test.dir/test_csv_field.cpp.i
 
 tests/CMakeFiles/csv_test.dir/test_csv_field.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/test_csv_field.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_field.cpp -o CMakeFiles/csv_test.dir/test_csv_field.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/test_csv_field.cpp -o CMakeFiles/csv_test.dir/test_csv_field.cpp.s
 
 tests/CMakeFiles/csv_test.dir/test_csv_field_array.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/test_csv_field_array.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_field_array.cpp
+tests/CMakeFiles/csv_test.dir/test_csv_field_array.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/test_csv_field_array.cpp
 tests/CMakeFiles/csv_test.dir/test_csv_field_array.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/csv_test.dir/test_csv_field_array.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_csv_field_array.cpp.o -MF CMakeFiles/csv_test.dir/test_csv_field_array.cpp.o.d -o CMakeFiles/csv_test.dir/test_csv_field_array.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_field_array.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object tests/CMakeFiles/csv_test.dir/test_csv_field_array.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_csv_field_array.cpp.o -MF CMakeFiles/csv_test.dir/test_csv_field_array.cpp.o.d -o CMakeFiles/csv_test.dir/test_csv_field_array.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/test_csv_field_array.cpp
 
 tests/CMakeFiles/csv_test.dir/test_csv_field_array.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/test_csv_field_array.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_field_array.cpp > CMakeFiles/csv_test.dir/test_csv_field_array.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/test_csv_field_array.cpp > CMakeFiles/csv_test.dir/test_csv_field_array.cpp.i
 
 tests/CMakeFiles/csv_test.dir/test_csv_field_array.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/test_csv_field_array.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_field_array.cpp -o CMakeFiles/csv_test.dir/test_csv_field_array.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/test_csv_field_array.cpp -o CMakeFiles/csv_test.dir/test_csv_field_array.cpp.s
 
 tests/CMakeFiles/csv_test.dir/test_csv_format.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/test_csv_format.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_format.cpp
+tests/CMakeFiles/csv_test.dir/test_csv_format.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/test_csv_format.cpp
 tests/CMakeFiles/csv_test.dir/test_csv_format.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/csv_test.dir/test_csv_format.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_csv_format.cpp.o -MF CMakeFiles/csv_test.dir/test_csv_format.cpp.o.d -o CMakeFiles/csv_test.dir/test_csv_format.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_format.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object tests/CMakeFiles/csv_test.dir/test_csv_format.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_csv_format.cpp.o -MF CMakeFiles/csv_test.dir/test_csv_format.cpp.o.d -o CMakeFiles/csv_test.dir/test_csv_format.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/test_csv_format.cpp
 
 tests/CMakeFiles/csv_test.dir/test_csv_format.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/test_csv_format.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_format.cpp > CMakeFiles/csv_test.dir/test_csv_format.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/test_csv_format.cpp > CMakeFiles/csv_test.dir/test_csv_format.cpp.i
 
 tests/CMakeFiles/csv_test.dir/test_csv_format.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/test_csv_format.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_format.cpp -o CMakeFiles/csv_test.dir/test_csv_format.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/test_csv_format.cpp -o CMakeFiles/csv_test.dir/test_csv_format.cpp.s
 
 tests/CMakeFiles/csv_test.dir/test_csv_iterator.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/test_csv_iterator.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_iterator.cpp
+tests/CMakeFiles/csv_test.dir/test_csv_iterator.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/test_csv_iterator.cpp
 tests/CMakeFiles/csv_test.dir/test_csv_iterator.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/CMakeFiles/csv_test.dir/test_csv_iterator.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_csv_iterator.cpp.o -MF CMakeFiles/csv_test.dir/test_csv_iterator.cpp.o.d -o CMakeFiles/csv_test.dir/test_csv_iterator.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_iterator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object tests/CMakeFiles/csv_test.dir/test_csv_iterator.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_csv_iterator.cpp.o -MF CMakeFiles/csv_test.dir/test_csv_iterator.cpp.o.d -o CMakeFiles/csv_test.dir/test_csv_iterator.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/test_csv_iterator.cpp
 
 tests/CMakeFiles/csv_test.dir/test_csv_iterator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/test_csv_iterator.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_iterator.cpp > CMakeFiles/csv_test.dir/test_csv_iterator.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/test_csv_iterator.cpp > CMakeFiles/csv_test.dir/test_csv_iterator.cpp.i
 
 tests/CMakeFiles/csv_test.dir/test_csv_iterator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/test_csv_iterator.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_iterator.cpp -o CMakeFiles/csv_test.dir/test_csv_iterator.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/test_csv_iterator.cpp -o CMakeFiles/csv_test.dir/test_csv_iterator.cpp.s
 
 tests/CMakeFiles/csv_test.dir/test_csv_row.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/test_csv_row.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_row.cpp
+tests/CMakeFiles/csv_test.dir/test_csv_row.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/test_csv_row.cpp
 tests/CMakeFiles/csv_test.dir/test_csv_row.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/CMakeFiles/csv_test.dir/test_csv_row.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_csv_row.cpp.o -MF CMakeFiles/csv_test.dir/test_csv_row.cpp.o.d -o CMakeFiles/csv_test.dir/test_csv_row.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_row.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object tests/CMakeFiles/csv_test.dir/test_csv_row.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_csv_row.cpp.o -MF CMakeFiles/csv_test.dir/test_csv_row.cpp.o.d -o CMakeFiles/csv_test.dir/test_csv_row.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/test_csv_row.cpp
 
 tests/CMakeFiles/csv_test.dir/test_csv_row.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/test_csv_row.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_row.cpp > CMakeFiles/csv_test.dir/test_csv_row.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/test_csv_row.cpp > CMakeFiles/csv_test.dir/test_csv_row.cpp.i
 
 tests/CMakeFiles/csv_test.dir/test_csv_row.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/test_csv_row.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_row.cpp -o CMakeFiles/csv_test.dir/test_csv_row.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/test_csv_row.cpp -o CMakeFiles/csv_test.dir/test_csv_row.cpp.s
 
 tests/CMakeFiles/csv_test.dir/test_csv_row_json.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/test_csv_row_json.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_row_json.cpp
+tests/CMakeFiles/csv_test.dir/test_csv_row_json.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/test_csv_row_json.cpp
 tests/CMakeFiles/csv_test.dir/test_csv_row_json.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tests/CMakeFiles/csv_test.dir/test_csv_row_json.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_csv_row_json.cpp.o -MF CMakeFiles/csv_test.dir/test_csv_row_json.cpp.o.d -o CMakeFiles/csv_test.dir/test_csv_row_json.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_row_json.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object tests/CMakeFiles/csv_test.dir/test_csv_row_json.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_csv_row_json.cpp.o -MF CMakeFiles/csv_test.dir/test_csv_row_json.cpp.o.d -o CMakeFiles/csv_test.dir/test_csv_row_json.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/test_csv_row_json.cpp
 
 tests/CMakeFiles/csv_test.dir/test_csv_row_json.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/test_csv_row_json.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_row_json.cpp > CMakeFiles/csv_test.dir/test_csv_row_json.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/test_csv_row_json.cpp > CMakeFiles/csv_test.dir/test_csv_row_json.cpp.i
 
 tests/CMakeFiles/csv_test.dir/test_csv_row_json.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/test_csv_row_json.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_row_json.cpp -o CMakeFiles/csv_test.dir/test_csv_row_json.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/test_csv_row_json.cpp -o CMakeFiles/csv_test.dir/test_csv_row_json.cpp.s
 
 tests/CMakeFiles/csv_test.dir/test_csv_stat.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/test_csv_stat.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_stat.cpp
+tests/CMakeFiles/csv_test.dir/test_csv_stat.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/test_csv_stat.cpp
 tests/CMakeFiles/csv_test.dir/test_csv_stat.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tests/CMakeFiles/csv_test.dir/test_csv_stat.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_csv_stat.cpp.o -MF CMakeFiles/csv_test.dir/test_csv_stat.cpp.o.d -o CMakeFiles/csv_test.dir/test_csv_stat.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_stat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object tests/CMakeFiles/csv_test.dir/test_csv_stat.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_csv_stat.cpp.o -MF CMakeFiles/csv_test.dir/test_csv_stat.cpp.o.d -o CMakeFiles/csv_test.dir/test_csv_stat.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/test_csv_stat.cpp
 
 tests/CMakeFiles/csv_test.dir/test_csv_stat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/test_csv_stat.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_stat.cpp > CMakeFiles/csv_test.dir/test_csv_stat.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/test_csv_stat.cpp > CMakeFiles/csv_test.dir/test_csv_stat.cpp.i
 
 tests/CMakeFiles/csv_test.dir/test_csv_stat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/test_csv_stat.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/test_csv_stat.cpp -o CMakeFiles/csv_test.dir/test_csv_stat.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/test_csv_stat.cpp -o CMakeFiles/csv_test.dir/test_csv_stat.cpp.s
 
 tests/CMakeFiles/csv_test.dir/test_guess_csv.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/test_guess_csv.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/test_guess_csv.cpp
+tests/CMakeFiles/csv_test.dir/test_guess_csv.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/test_guess_csv.cpp
 tests/CMakeFiles/csv_test.dir/test_guess_csv.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tests/CMakeFiles/csv_test.dir/test_guess_csv.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_guess_csv.cpp.o -MF CMakeFiles/csv_test.dir/test_guess_csv.cpp.o.d -o CMakeFiles/csv_test.dir/test_guess_csv.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/test_guess_csv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object tests/CMakeFiles/csv_test.dir/test_guess_csv.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_guess_csv.cpp.o -MF CMakeFiles/csv_test.dir/test_guess_csv.cpp.o.d -o CMakeFiles/csv_test.dir/test_guess_csv.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/test_guess_csv.cpp
 
 tests/CMakeFiles/csv_test.dir/test_guess_csv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/test_guess_csv.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/test_guess_csv.cpp > CMakeFiles/csv_test.dir/test_guess_csv.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/test_guess_csv.cpp > CMakeFiles/csv_test.dir/test_guess_csv.cpp.i
 
 tests/CMakeFiles/csv_test.dir/test_guess_csv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/test_guess_csv.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/test_guess_csv.cpp -o CMakeFiles/csv_test.dir/test_guess_csv.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/test_guess_csv.cpp -o CMakeFiles/csv_test.dir/test_guess_csv.cpp.s
 
 tests/CMakeFiles/csv_test.dir/test_read_csv.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/test_read_csv.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv.cpp
+tests/CMakeFiles/csv_test.dir/test_read_csv.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/test_read_csv.cpp
 tests/CMakeFiles/csv_test.dir/test_read_csv.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tests/CMakeFiles/csv_test.dir/test_read_csv.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_read_csv.cpp.o -MF CMakeFiles/csv_test.dir/test_read_csv.cpp.o.d -o CMakeFiles/csv_test.dir/test_read_csv.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object tests/CMakeFiles/csv_test.dir/test_read_csv.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_read_csv.cpp.o -MF CMakeFiles/csv_test.dir/test_read_csv.cpp.o.d -o CMakeFiles/csv_test.dir/test_read_csv.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/test_read_csv.cpp
 
 tests/CMakeFiles/csv_test.dir/test_read_csv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/test_read_csv.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv.cpp > CMakeFiles/csv_test.dir/test_read_csv.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/test_read_csv.cpp > CMakeFiles/csv_test.dir/test_read_csv.cpp.i
 
 tests/CMakeFiles/csv_test.dir/test_read_csv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/test_read_csv.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv.cpp -o CMakeFiles/csv_test.dir/test_read_csv.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/test_read_csv.cpp -o CMakeFiles/csv_test.dir/test_read_csv.cpp.s
 
 tests/CMakeFiles/csv_test.dir/test_read_csv_file.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/test_read_csv_file.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv_file.cpp
+tests/CMakeFiles/csv_test.dir/test_read_csv_file.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/test_read_csv_file.cpp
 tests/CMakeFiles/csv_test.dir/test_read_csv_file.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tests/CMakeFiles/csv_test.dir/test_read_csv_file.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_read_csv_file.cpp.o -MF CMakeFiles/csv_test.dir/test_read_csv_file.cpp.o.d -o CMakeFiles/csv_test.dir/test_read_csv_file.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv_file.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object tests/CMakeFiles/csv_test.dir/test_read_csv_file.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_read_csv_file.cpp.o -MF CMakeFiles/csv_test.dir/test_read_csv_file.cpp.o.d -o CMakeFiles/csv_test.dir/test_read_csv_file.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/test_read_csv_file.cpp
 
 tests/CMakeFiles/csv_test.dir/test_read_csv_file.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/test_read_csv_file.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv_file.cpp > CMakeFiles/csv_test.dir/test_read_csv_file.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/test_read_csv_file.cpp > CMakeFiles/csv_test.dir/test_read_csv_file.cpp.i
 
 tests/CMakeFiles/csv_test.dir/test_read_csv_file.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/test_read_csv_file.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/test_read_csv_file.cpp -o CMakeFiles/csv_test.dir/test_read_csv_file.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/test_read_csv_file.cpp -o CMakeFiles/csv_test.dir/test_read_csv_file.cpp.s
 
 tests/CMakeFiles/csv_test.dir/test_write_csv.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/test_write_csv.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/test_write_csv.cpp
+tests/CMakeFiles/csv_test.dir/test_write_csv.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/test_write_csv.cpp
 tests/CMakeFiles/csv_test.dir/test_write_csv.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tests/CMakeFiles/csv_test.dir/test_write_csv.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_write_csv.cpp.o -MF CMakeFiles/csv_test.dir/test_write_csv.cpp.o.d -o CMakeFiles/csv_test.dir/test_write_csv.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/test_write_csv.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object tests/CMakeFiles/csv_test.dir/test_write_csv.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_write_csv.cpp.o -MF CMakeFiles/csv_test.dir/test_write_csv.cpp.o.d -o CMakeFiles/csv_test.dir/test_write_csv.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/test_write_csv.cpp
 
 tests/CMakeFiles/csv_test.dir/test_write_csv.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/test_write_csv.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/test_write_csv.cpp > CMakeFiles/csv_test.dir/test_write_csv.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/test_write_csv.cpp > CMakeFiles/csv_test.dir/test_write_csv.cpp.i
 
 tests/CMakeFiles/csv_test.dir/test_write_csv.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/test_write_csv.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/test_write_csv.cpp -o CMakeFiles/csv_test.dir/test_write_csv.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/test_write_csv.cpp -o CMakeFiles/csv_test.dir/test_write_csv.cpp.s
 
 tests/CMakeFiles/csv_test.dir/test_data_type.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/test_data_type.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/test_data_type.cpp
+tests/CMakeFiles/csv_test.dir/test_data_type.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/test_data_type.cpp
 tests/CMakeFiles/csv_test.dir/test_data_type.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object tests/CMakeFiles/csv_test.dir/test_data_type.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_data_type.cpp.o -MF CMakeFiles/csv_test.dir/test_data_type.cpp.o.d -o CMakeFiles/csv_test.dir/test_data_type.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/test_data_type.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object tests/CMakeFiles/csv_test.dir/test_data_type.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_data_type.cpp.o -MF CMakeFiles/csv_test.dir/test_data_type.cpp.o.d -o CMakeFiles/csv_test.dir/test_data_type.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/test_data_type.cpp
 
 tests/CMakeFiles/csv_test.dir/test_data_type.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/test_data_type.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/test_data_type.cpp > CMakeFiles/csv_test.dir/test_data_type.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/test_data_type.cpp > CMakeFiles/csv_test.dir/test_data_type.cpp.i
 
 tests/CMakeFiles/csv_test.dir/test_data_type.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/test_data_type.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/test_data_type.cpp -o CMakeFiles/csv_test.dir/test_data_type.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/test_data_type.cpp -o CMakeFiles/csv_test.dir/test_data_type.cpp.s
 
 tests/CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/test_raw_csv_data.cpp
+tests/CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/test_raw_csv_data.cpp
 tests/CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object tests/CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.o -MF CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.o.d -o CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/test_raw_csv_data.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object tests/CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.o -MF CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.o.d -o CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/test_raw_csv_data.cpp
 
 tests/CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/test_raw_csv_data.cpp > CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/test_raw_csv_data.cpp > CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.i
 
 tests/CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/test_raw_csv_data.cpp -o CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/test_raw_csv_data.cpp -o CMakeFiles/csv_test.dir/test_raw_csv_data.cpp.s
 
 tests/CMakeFiles/csv_test.dir/test_round_trip.cpp.o: tests/CMakeFiles/csv_test.dir/flags.make
-tests/CMakeFiles/csv_test.dir/test_round_trip.cpp.o: /home/user/Eurobot-excel/src/csv-parser/tests/test_round_trip.cpp
+tests/CMakeFiles/csv_test.dir/test_round_trip.cpp.o: /home/user/excel-to-bag/src/csv-parser/tests/test_round_trip.cpp
 tests/CMakeFiles/csv_test.dir/test_round_trip.cpp.o: tests/CMakeFiles/csv_test.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object tests/CMakeFiles/csv_test.dir/test_round_trip.cpp.o"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_round_trip.cpp.o -MF CMakeFiles/csv_test.dir/test_round_trip.cpp.o.d -o CMakeFiles/csv_test.dir/test_round_trip.cpp.o -c /home/user/Eurobot-excel/src/csv-parser/tests/test_round_trip.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object tests/CMakeFiles/csv_test.dir/test_round_trip.cpp.o"
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT tests/CMakeFiles/csv_test.dir/test_round_trip.cpp.o -MF CMakeFiles/csv_test.dir/test_round_trip.cpp.o.d -o CMakeFiles/csv_test.dir/test_round_trip.cpp.o -c /home/user/excel-to-bag/src/csv-parser/tests/test_round_trip.cpp
 
 tests/CMakeFiles/csv_test.dir/test_round_trip.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/csv_test.dir/test_round_trip.cpp.i"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/Eurobot-excel/src/csv-parser/tests/test_round_trip.cpp > CMakeFiles/csv_test.dir/test_round_trip.cpp.i
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/user/excel-to-bag/src/csv-parser/tests/test_round_trip.cpp > CMakeFiles/csv_test.dir/test_round_trip.cpp.i
 
 tests/CMakeFiles/csv_test.dir/test_round_trip.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/csv_test.dir/test_round_trip.cpp.s"
-	cd /home/user/Eurobot-excel/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/Eurobot-excel/src/csv-parser/tests/test_round_trip.cpp -o CMakeFiles/csv_test.dir/test_round_trip.cpp.s
+	cd /home/user/excel-to-bag/build/csv/tests && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/user/excel-to-bag/src/csv-parser/tests/test_round_trip.cpp -o CMakeFiles/csv_test.dir/test_round_trip.cpp.s
 
 # Object files for target csv_test
 csv_test_OBJECTS = \
@@ -320,18 +320,18 @@ tests/csv_test: include/internal/libcsv.a
 tests/csv_test: _deps/catch2-build/src/libCatch2Main.a
 tests/csv_test: _deps/catch2-build/src/libCatch2.a
 tests/csv_test: tests/CMakeFiles/csv_test.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/Eurobot-excel/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable csv_test"
-	cd /home/user/Eurobot-excel/build/csv/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/csv_test.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/user/excel-to-bag/build/csv/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable csv_test"
+	cd /home/user/excel-to-bag/build/csv/tests && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/csv_test.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 tests/CMakeFiles/csv_test.dir/build: tests/csv_test
 .PHONY : tests/CMakeFiles/csv_test.dir/build
 
 tests/CMakeFiles/csv_test.dir/clean:
-	cd /home/user/Eurobot-excel/build/csv/tests && $(CMAKE_COMMAND) -P CMakeFiles/csv_test.dir/cmake_clean.cmake
+	cd /home/user/excel-to-bag/build/csv/tests && $(CMAKE_COMMAND) -P CMakeFiles/csv_test.dir/cmake_clean.cmake
 .PHONY : tests/CMakeFiles/csv_test.dir/clean
 
 tests/CMakeFiles/csv_test.dir/depend:
-	cd /home/user/Eurobot-excel/build/csv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/Eurobot-excel/src/csv-parser /home/user/Eurobot-excel/src/csv-parser/tests /home/user/Eurobot-excel/build/csv /home/user/Eurobot-excel/build/csv/tests /home/user/Eurobot-excel/build/csv/tests/CMakeFiles/csv_test.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/user/excel-to-bag/build/csv && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/user/excel-to-bag/src/csv-parser /home/user/excel-to-bag/src/csv-parser/tests /home/user/excel-to-bag/build/csv /home/user/excel-to-bag/build/csv/tests /home/user/excel-to-bag/build/csv/tests/CMakeFiles/csv_test.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : tests/CMakeFiles/csv_test.dir/depend
 

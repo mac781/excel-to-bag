@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DCMAKE_CXX_STANDARD=17
 
-CXX_INCLUDES = -I/home/user/Eurobot-excel/src/csv-parser/include
+CXX_INCLUDES = -I/home/user/excel-to-bag/src/csv-parser/include
 
 CXX_FLAGS =  -Wno-unknown-pragmas         -Wall -Wextra -Wsign-compare         -Wwrite-strings -Wpointer-arith -Winit-self         -Wconversion -Wno-sign-conversion
 

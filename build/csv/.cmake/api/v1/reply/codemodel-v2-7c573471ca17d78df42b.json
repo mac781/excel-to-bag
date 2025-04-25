@@ -1,0 +1,293 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4
+					],
+					"jsonFile" : "directory-.-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "include/internal",
+					"jsonFile" : "directory-include.internal-af56cdddebf5a4f3c36e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "include/internal",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "programs",
+					"jsonFile" : "directory-programs-59cbf4335be5d41ebee9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "programs",
+					"targetIndexes" : 
+					[
+						3,
+						4,
+						5,
+						6,
+						7,
+						9,
+						10,
+						11
+					]
+				},
+				{
+					"build" : "single_include_test",
+					"jsonFile" : "directory-single_include_test-271eb4124757d1ef03b3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "single_include_test",
+					"targetIndexes" : 
+					[
+						13
+					]
+				},
+				{
+					"build" : "tests",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-tests-b01f6abb0ab61427ef3b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.9"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "tests",
+					"targetIndexes" : 
+					[
+						8
+					]
+				},
+				{
+					"build" : "_deps/catch2-build",
+					"childIndexes" : 
+					[
+						6
+					],
+					"jsonFile" : "directory-_deps.catch2-build-2542b8dfe8b5414e35f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "/home/user/excel-to-bag/build/csv/_deps/catch2-src"
+				},
+				{
+					"build" : "_deps/catch2-build/src",
+					"jsonFile" : "directory-_deps.catch2-build.src-755639ec1fd03d1258f5.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.10"
+					},
+					"parentIndex" : 5,
+					"projectIndex" : 1,
+					"source" : "/home/user/excel-to-bag/build/csv/_deps/catch2-src/src",
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					],
+					"name" : "csv",
+					"targetIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						5,
+						6
+					],
+					"name" : "Catch2",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0,
+						1
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 6,
+					"id" : "Catch2::@fa92aa50e9bf5e1a7206",
+					"jsonFile" : "target-Catch2-7286b945662426feca94.json",
+					"name" : "Catch2",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "Catch2WithMain::@fa92aa50e9bf5e1a7206",
+					"jsonFile" : "target-Catch2WithMain-aaaf0f7847784d359f45.json",
+					"name" : "Catch2WithMain",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "csv::@05143e6303d557d4b141",
+					"jsonFile" : "target-csv-d51f85da3d557f17b8a1.json",
+					"name" : "csv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "csv_bench::@8e422c029f6fe140fec0",
+					"jsonFile" : "target-csv_bench-a670da0b0a1bc179e7e4.json",
+					"name" : "csv_bench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "csv_generator::@8e422c029f6fe140fec0",
+					"jsonFile" : "target-csv_generator-bf676506df31b87918fd.json",
+					"name" : "csv_generator",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "csv_guess_bench::@8e422c029f6fe140fec0",
+					"jsonFile" : "target-csv_guess_bench-c92ab35479f57b3e5dc2.json",
+					"name" : "csv_guess_bench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "csv_info::@8e422c029f6fe140fec0",
+					"jsonFile" : "target-csv_info-369f66770cd1977f9d92.json",
+					"name" : "csv_info",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "csv_stats::@8e422c029f6fe140fec0",
+					"jsonFile" : "target-csv_stats-93e9903c03d259123826.json",
+					"name" : "csv_stats",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "csv_test::@a44f0ac069e85531cdee",
+					"jsonFile" : "target-csv_test-f3b9046d64a4b7917ce4.json",
+					"name" : "csv_test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "data_type_bench::@8e422c029f6fe140fec0",
+					"jsonFile" : "target-data_type_bench-878c7f8f43354b05f316.json",
+					"name" : "data_type_bench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generate_csv_bench::@8e422c029f6fe140fec0",
+					"jsonFile" : "target-generate_csv_bench-86325ec1fa72b51bdd70.json",
+					"name" : "generate_csv_bench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "generate_dtype_bench::@8e422c029f6fe140fec0",
+					"jsonFile" : "target-generate_dtype_bench-bddb8e89b2e0ca63b19b.json",
+					"name" : "generate_dtype_bench",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "generate_single_header::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-generate_single_header-9bdd5737a0f14d2b2a69.json",
+					"name" : "generate_single_header",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "single_include_test::@72eebb3352e247004b02",
+					"jsonFile" : "target-single_include_test-f6dc114b127cdc77331b.json",
+					"name" : "single_include_test",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/user/excel-to-bag/build/csv",
+		"source" : "/home/user/excel-to-bag/src/csv-parser"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

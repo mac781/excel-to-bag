@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = -DCMAKE_CXX_STANDARD=17
 
-CXX_INCLUDES = -I/home/user/Eurobot-excel/src/csv-parser/include -I/home/user/Eurobot-excel/src/csv-parser/include/internal/.. -I/home/user/Eurobot-excel/build/csv/_deps/catch2-src/src/catch2/.. -I/home/user/Eurobot-excel/build/csv/_deps/catch2-build/generated-includes
+CXX_INCLUDES = -I/home/user/excel-to-bag/src/csv-parser/include -I/home/user/excel-to-bag/src/csv-parser/include/internal/.. -I/home/user/excel-to-bag/build/csv/_deps/catch2-src/src/catch2/.. -I/home/user/excel-to-bag/build/csv/_deps/catch2-build/generated-includes
 
 CXX_FLAGS =  -Wno-unknown-pragmas         -Wall -Wextra -Wsign-compare         -Wwrite-strings -Wpointer-arith -Winit-self         -Wconversion -Wno-sign-conversion
 
